@@ -1,0 +1,1532 @@
+x_train shape:(50000, 32, 32, 3)
+50000 train samples
+10000 test samples
+Step:   0 Loss: 219.539 Accuracy: 0.078 KL: 0.043
+Step: 100 Loss: 12.064 Accuracy: 0.191 KL: 4.315
+Step: 200 Loss: 14.376 Accuracy: 0.217 KL: 8.585
+Step: 300 Loss: 16.990 Accuracy: 0.234 KL: 12.850
+ ... Held-out nats: -4.018
+ ... Validation Accuracy: 0.288
+Step: 400 Loss: 20.291 Accuracy: 0.245 KL: 17.110
+Step: 500 Loss: 23.796 Accuracy: 0.257 KL: 21.362
+Step: 600 Loss: 27.671 Accuracy: 0.266 KL: 25.605
+Step: 700 Loss: 32.118 Accuracy: 0.274 KL: 29.839
+ ... Held-out nats: -3.434
+ ... Validation Accuracy: 0.331
+Step: 800 Loss: 36.242 Accuracy: 0.281 KL: 34.063
+Step: 900 Loss: 39.994 Accuracy: 0.290 KL: 38.275
+Step: 1000 Loss: 44.344 Accuracy: 0.298 KL: 42.476
+Step: 1100 Loss: 48.511 Accuracy: 0.305 KL: 46.665
+ ... Held-out nats: -3.188
+ ... Validation Accuracy: 0.376
+Step: 1200 Loss: 52.500 Accuracy: 0.312 KL: 50.842
+Step: 1300 Loss: 56.720 Accuracy: 0.320 KL: 55.006
+Step: 1400 Loss: 60.910 Accuracy: 0.327 KL: 59.157
+Step: 1500 Loss: 64.980 Accuracy: 0.334 KL: 63.295
+ ... Held-out nats: -3.365
+ ... Validation Accuracy: 0.402
+Step: 1600 Loss: 69.067 Accuracy: 0.340 KL: 67.420
+Step: 1700 Loss: 73.177 Accuracy: 0.348 KL: 71.532
+Step: 1800 Loss: 77.208 Accuracy: 0.354 KL: 75.630
+Step: 1900 Loss: 81.149 Accuracy: 0.360 KL: 79.715
+ ... Held-out nats: -3.334
+ ... Validation Accuracy: 0.435
+Step: 2000 Loss: 85.365 Accuracy: 0.367 KL: 83.787
+Step: 2100 Loss: 89.000 Accuracy: 0.373 KL: 87.846
+Step: 2200 Loss: 93.219 Accuracy: 0.379 KL: 91.892
+Step: 2300 Loss: 97.205 Accuracy: 0.384 KL: 95.925
+ ... Held-out nats: -3.099
+ ... Validation Accuracy: 0.444
+Step: 2400 Loss: 101.307 Accuracy: 0.390 KL: 99.944
+Step: 2500 Loss: 105.333 Accuracy: 0.396 KL: 103.951
+Step: 2600 Loss: 109.228 Accuracy: 0.402 KL: 107.945
+Step: 2700 Loss: 113.285 Accuracy: 0.407 KL: 111.926
+ ... Held-out nats: -3.333
+ ... Validation Accuracy: 0.471
+Step: 2800 Loss: 117.131 Accuracy: 0.413 KL: 115.895
+Step: 2900 Loss: 121.254 Accuracy: 0.418 KL: 119.851
+Step: 3000 Loss: 125.088 Accuracy: 0.423 KL: 123.794
+Step: 3100 Loss: 128.762 Accuracy: 0.428 KL: 127.725
+ ... Held-out nats: -3.342
+ ... Validation Accuracy: 0.471
+Step: 3200 Loss: 132.835 Accuracy: 0.433 KL: 131.644
+Step: 3300 Loss: 136.653 Accuracy: 0.438 KL: 135.551
+Step: 3400 Loss: 140.595 Accuracy: 0.443 KL: 139.445
+Step: 3500 Loss: 144.394 Accuracy: 0.448 KL: 143.327
+x_train shape:(50000, 32, 32, 3)
+50000 train samples
+10000 test samples
+Step:   0 Loss: 100.328 Accuracy: 0.109 KL: 0.043
+Step: 100 Loss: 13.003 Accuracy: 0.188 KL: 4.315
+Step: 200 Loss: 14.309 Accuracy: 0.211 KL: 8.584
+Step: 300 Loss: 16.630 Accuracy: 0.227 KL: 12.849
+ ... Held-out nats: -3.704
+ ... Validation Accuracy: 0.282
+Step: 400 Loss: 19.815 Accuracy: 0.237 KL: 17.108
+Step: 500 Loss: 23.774 Accuracy: 0.250 KL: 21.359
+Step: 600 Loss: 28.185 Accuracy: 0.258 KL: 25.600
+Step: 700 Loss: 32.093 Accuracy: 0.266 KL: 29.833
+ ... Held-out nats: -3.424
+ ... Validation Accuracy: 0.331
+Step: 800 Loss: 35.907 Accuracy: 0.274 KL: 34.054
+Step: 900 Loss: 40.242 Accuracy: 0.284 KL: 38.265
+Step: 1000 Loss: 44.318 Accuracy: 0.292 KL: 42.464
+Step: 1100 Loss: 48.320 Accuracy: 0.299 KL: 46.651
+ ... Held-out nats: -2.996
+ ... Validation Accuracy: 0.379
+Step: 1200 Loss: 52.484 Accuracy: 0.307 KL: 50.826
+Step: 1300 Loss: 56.706 Accuracy: 0.316 KL: 54.988
+Step: 1400 Loss: 60.573 Accuracy: 0.323 KL: 59.137
+Step: 1500 Loss: 65.010 Accuracy: 0.329 KL: 63.273
+ ... Held-out nats: -3.367
+ ... Validation Accuracy: 0.408
+Step: 1600 Loss: 68.833 Accuracy: 0.336 KL: 67.396
+Step: 1700 Loss: 73.004 Accuracy: 0.343 KL: 71.507
+Step: 1800 Loss: 77.017 Accuracy: 0.350 KL: 75.603
+Step: 1900 Loss: 81.189 Accuracy: 0.356 KL: 79.687
+ ... Held-out nats: -2.990
+ ... Validation Accuracy: 0.424
+Step: 2000 Loss: 85.158 Accuracy: 0.362 KL: 83.758
+Step: 2100 Loss: 89.263 Accuracy: 0.368 KL: 87.815
+Step: 2200 Loss: 93.335 Accuracy: 0.374 KL: 91.860
+Step: 2300 Loss: 97.292 Accuracy: 0.379 KL: 95.891
+ ... Held-out nats: -3.096
+ ... Validation Accuracy: 0.449
+Step: 2400 Loss: 101.153 Accuracy: 0.385 KL: 99.910
+Step: 2500 Loss: 105.210 Accuracy: 0.391 KL: 103.915
+Step: 2600 Loss: 109.107 Accuracy: 0.396 KL: 107.908
+Step: 2700 Loss: 113.225 Accuracy: 0.401 KL: 111.888
+ ... Held-out nats: -3.400
+ ... Validation Accuracy: 0.473
+Step: 2800 Loss: 116.914 Accuracy: 0.407 KL: 115.855
+Step: 2900 Loss: 120.885 Accuracy: 0.412 KL: 119.810
+Step: 3000 Loss: 124.993 Accuracy: 0.417 KL: 123.752
+Step: 3100 Loss: 128.703 Accuracy: 0.421 KL: 127.682
+ ... Held-out nats: -3.477
+ ... Validation Accuracy: 0.459
+Step: 3200 Loss: 132.910 Accuracy: 0.427 KL: 131.599
+Step: 3300 Loss: 136.651 Accuracy: 0.432 KL: 135.504
+Step: 3400 Loss: 140.513 Accuracy: 0.436 KL: 139.398
+Step: 3500 Loss: 144.444 Accuracy: 0.441 KL: 143.279
+ ... Held-out nats: -3.570
+ ... Validation Accuracy: 0.488
+Step: 3600 Loss: 148.420 Accuracy: 0.446 KL: 147.148
+Step: 3700 Loss: 152.257 Accuracy: 0.451 KL: 151.005
+Step: 3800 Loss: 155.983 Accuracy: 0.455 KL: 154.850
+Step: 3900 Loss: 159.685 Accuracy: 0.460 KL: 158.683
+ ... Held-out nats: -3.581
+ ... Validation Accuracy: 0.498
+Step: 4000 Loss: 163.700 Accuracy: 0.464 KL: 162.505
+Step: 4100 Loss: 167.243 Accuracy: 0.469 KL: 166.316
+Step: 4200 Loss: 171.059 Accuracy: 0.473 KL: 170.114
+Step: 4300 Loss: 174.693 Accuracy: 0.478 KL: 173.901
+ ... Held-out nats: -3.697
+ ... Validation Accuracy: 0.507
+Step: 4400 Loss: 178.512 Accuracy: 0.483 KL: 177.677
+Step: 4500 Loss: 182.406 Accuracy: 0.487 KL: 181.441
+Step: 4600 Loss: 186.093 Accuracy: 0.491 KL: 185.194
+Step: 4700 Loss: 189.775 Accuracy: 0.496 KL: 188.936
+ ... Held-out nats: -3.831
+ ... Validation Accuracy: 0.512
+Step: 4800 Loss: 193.554 Accuracy: 0.501 KL: 192.666
+Step: 4900 Loss: 197.124 Accuracy: 0.505 KL: 196.385
+Step: 5000 Loss: 201.015 Accuracy: 0.509 KL: 200.093
+Step: 5100 Loss: 204.517 Accuracy: 0.513 KL: 203.790
+ ... Held-out nats: -4.044
+ ... Validation Accuracy: 0.508
+Step: 5200 Loss: 208.268 Accuracy: 0.518 KL: 207.476
+Step: 5300 Loss: 211.862 Accuracy: 0.522 KL: 211.150
+Step: 5400 Loss: 215.524 Accuracy: 0.526 KL: 214.814
+Step: 5500 Loss: 219.044 Accuracy: 0.531 KL: 218.466
+ ... Held-out nats: -4.614
+ ... Validation Accuracy: 0.526
+Step: 5600 Loss: 222.726 Accuracy: 0.535 KL: 222.108
+Step: 5700 Loss: 226.479 Accuracy: 0.540 KL: 225.738
+Step: 5800 Loss: 230.053 Accuracy: 0.544 KL: 229.358
+Step: 5900 Loss: 233.556 Accuracy: 0.548 KL: 232.966
+ ... Held-out nats: -4.393
+ ... Validation Accuracy: 0.515
+Step: 6000 Loss: 237.193 Accuracy: 0.553 KL: 236.564
+Step: 6100 Loss: 240.637 Accuracy: 0.557 KL: 240.151
+Step: 6200 Loss: 244.201 Accuracy: 0.561 KL: 243.727
+Step: 6300 Loss: 247.802 Accuracy: 0.566 KL: 247.292
+ ... Held-out nats: -3.906
+ ... Validation Accuracy: 0.539
+Step: 6400 Loss: 251.358 Accuracy: 0.571 KL: 250.846
+Step: 6500 Loss: 254.754 Accuracy: 0.575 KL: 254.389
+Step: 6600 Loss: 258.335 Accuracy: 0.579 KL: 257.921
+Step: 6700 Loss: 261.741 Accuracy: 0.584 KL: 261.443
+ ... Held-out nats: -4.982
+ ... Validation Accuracy: 0.541
+Step: 6800 Loss: 265.336 Accuracy: 0.588 KL: 264.954
+Step: 6900 Loss: 268.927 Accuracy: 0.592 KL: 268.454
+Step: 7000 Loss: 272.199 Accuracy: 0.596 KL: 271.943
+Step: 7100 Loss: 275.724 Accuracy: 0.601 KL: 275.422
+ ... Held-out nats: -5.472
+ ... Validation Accuracy: 0.532
+Step: 7200 Loss: 279.204 Accuracy: 0.605 KL: 278.890
+Step: 7300 Loss: 282.579 Accuracy: 0.609 KL: 282.346
+Step: 7400 Loss: 286.134 Accuracy: 0.613 KL: 285.793
+Step: 7500 Loss: 289.489 Accuracy: 0.617 KL: 289.228
+ ... Held-out nats: -4.777
+ ... Validation Accuracy: 0.535
+Step: 7600 Loss: 292.863 Accuracy: 0.622 KL: 292.653
+Step: 7700 Loss: 296.331 Accuracy: 0.626 KL: 296.067
+Step: 7800 Loss: 299.655 Accuracy: 0.630 KL: 299.471
+Step: 7900 Loss: 303.069 Accuracy: 0.634 KL: 302.863
+ ... Held-out nats: -5.913
+ ... Validation Accuracy: 0.526
+Step: 8000 Loss: 306.467 Accuracy: 0.638 KL: 306.245
+Step: 8100 Loss: 309.840 Accuracy: 0.641 KL: 309.617
+Step: 8200 Loss: 313.066 Accuracy: 0.645 KL: 312.977
+Step: 8300 Loss: 316.464 Accuracy: 0.649 KL: 316.327
+ ... Held-out nats: -5.929
+ ... Validation Accuracy: 0.541
+Step: 8400 Loss: 319.793 Accuracy: 0.653 KL: 319.666
+Step: 8500 Loss: 323.132 Accuracy: 0.656 KL: 322.995
+Step: 8600 Loss: 326.382 Accuracy: 0.660 KL: 326.313
+Step: 8700 Loss: 329.701 Accuracy: 0.664 KL: 329.620
+ ... Held-out nats: -7.205
+ ... Validation Accuracy: 0.540
+Step: 8800 Loss: 333.074 Accuracy: 0.667 KL: 332.917
+Step: 8900 Loss: 336.291 Accuracy: 0.671 KL: 336.203
+Step: 9000 Loss: 339.528 Accuracy: 0.674 KL: 339.478
+Step: 9100 Loss: 342.823 Accuracy: 0.678 KL: 342.742
+ ... Held-out nats: -6.484
+ ... Validation Accuracy: 0.534
+Step: 9200 Loss: 346.112 Accuracy: 0.681 KL: 345.996
+Step: 9300 Loss: 349.288 Accuracy: 0.684 KL: 349.240
+Step: 9400 Loss: 352.529 Accuracy: 0.688 KL: 352.473
+Step: 9500 Loss: 355.756 Accuracy: 0.691 KL: 355.695
+ ... Held-out nats: -6.527
+ ... Validation Accuracy: 0.540
+Step: 9600 Loss: 358.991 Accuracy: 0.694 KL: 358.907
+Step: 9700 Loss: 362.173 Accuracy: 0.697 KL: 362.108
+Step: 9800 Loss: 365.322 Accuracy: 0.700 KL: 365.298
+Step: 9900 Loss: 368.547 Accuracy: 0.703 KL: 368.478
+ ... Held-out nats: -6.329
+ ... Validation Accuracy: 0.516
+Step: 10000 Loss: 371.901 Accuracy: 0.705 KL: 371.647
+Step: 10100 Loss: 374.848 Accuracy: 0.708 KL: 374.806
+Step: 10200 Loss: 377.994 Accuracy: 0.711 KL: 377.955
+Step: 10300 Loss: 381.120 Accuracy: 0.713 KL: 381.093
+ ... Held-out nats: -6.752
+ ... Validation Accuracy: 0.550
+Step: 10400 Loss: 384.241 Accuracy: 0.716 KL: 384.220
+Step: 10500 Loss: 387.350 Accuracy: 0.719 KL: 387.337
+Step: 10600 Loss: 390.453 Accuracy: 0.721 KL: 390.443
+Step: 10700 Loss: 393.549 Accuracy: 0.724 KL: 393.538
+ ... Held-out nats: -8.188
+ ... Validation Accuracy: 0.558
+Step: 10800 Loss: 396.641 Accuracy: 0.727 KL: 396.622
+Step: 10900 Loss: 399.705 Accuracy: 0.729 KL: 399.697
+Step: 11000 Loss: 402.770 Accuracy: 0.732 KL: 402.761
+Step: 11100 Loss: 405.823 Accuracy: 0.734 KL: 405.814
+ ... Held-out nats: -8.264
+ ... Validation Accuracy: 0.559
+Step: 11200 Loss: 408.875 Accuracy: 0.736 KL: 408.856
+Step: 11300 Loss: 412.521 Accuracy: 0.738 KL: 411.888
+Step: 11400 Loss: 414.982 Accuracy: 0.740 KL: 414.911
+Step: 11500 Loss: 417.979 Accuracy: 0.742 KL: 417.923
+ ... Held-out nats: -6.896
+ ... Validation Accuracy: 0.554
+Step: 11600 Loss: 420.960 Accuracy: 0.744 KL: 420.924
+Step: 11700 Loss: 423.925 Accuracy: 0.746 KL: 423.915
+Step: 11800 Loss: 426.908 Accuracy: 0.748 KL: 426.895
+Step: 11900 Loss: 429.871 Accuracy: 0.750 KL: 429.865
+ ... Held-out nats: -7.174
+ ... Validation Accuracy: 0.566
+Step: 12000 Loss: 432.832 Accuracy: 0.753 KL: 432.824
+Step: 12100 Loss: 435.779 Accuracy: 0.755 KL: 435.773
+Step: 12200 Loss: 438.716 Accuracy: 0.757 KL: 438.712
+Step: 12300 Loss: 441.643 Accuracy: 0.759 KL: 441.639
+ ... Held-out nats: -8.710
+ ... Validation Accuracy: 0.569
+Step: 12400 Loss: 444.559 Accuracy: 0.761 KL: 444.556
+Step: 12500 Loss: 447.465 Accuracy: 0.762 KL: 447.462
+Step: 12600 Loss: 450.361 Accuracy: 0.764 KL: 450.357
+Step: 12700 Loss: 453.247 Accuracy: 0.766 KL: 453.243
+ ... Held-out nats: -8.265
+ ... Validation Accuracy: 0.566
+Step: 12800 Loss: 456.121 Accuracy: 0.768 KL: 456.118
+Step: 12900 Loss: 458.986 Accuracy: 0.770 KL: 458.983
+Step: 13000 Loss: 461.840 Accuracy: 0.772 KL: 461.838
+Step: 13100 Loss: 464.684 Accuracy: 0.773 KL: 464.681
+ ... Held-out nats: -9.422
+ ... Validation Accuracy: 0.569
+Step: 13200 Loss: 467.516 Accuracy: 0.775 KL: 467.514
+Step: 13300 Loss: 470.338 Accuracy: 0.777 KL: 470.335
+Step: 13400 Loss: 473.150 Accuracy: 0.778 KL: 473.147
+Step: 13500 Loss: 475.953 Accuracy: 0.780 KL: 475.949
+ ... Held-out nats: -9.561
+ ... Validation Accuracy: 0.567
+Step: 13600 Loss: 478.742 Accuracy: 0.782 KL: 478.741
+Step: 13700 Loss: 481.524 Accuracy: 0.783 KL: 481.522
+Step: 13800 Loss: 484.295 Accuracy: 0.785 KL: 484.293
+Step: 13900 Loss: 487.055 Accuracy: 0.786 KL: 487.052
+ ... Held-out nats: -9.894
+ ... Validation Accuracy: 0.567
+Step: 14000 Loss: 489.804 Accuracy: 0.788 KL: 489.802
+Step: 14100 Loss: 492.542 Accuracy: 0.789 KL: 492.540
+Step: 14200 Loss: 495.269 Accuracy: 0.791 KL: 495.267
+Step: 14300 Loss: 497.986 Accuracy: 0.792 KL: 497.984
+ ... Held-out nats: -7.088
+ ... Validation Accuracy: 0.570
+Step: 14400 Loss: 500.694 Accuracy: 0.794 KL: 500.693
+Step: 14500 Loss: 503.392 Accuracy: 0.795 KL: 503.391
+Step: 14600 Loss: 506.080 Accuracy: 0.797 KL: 506.078
+Step: 14700 Loss: 525.183 Accuracy: 0.798 KL: 508.755
+ ... Held-out nats: -3.756
+ ... Validation Accuracy: 0.469
+Step: 14800 Loss: 512.521 Accuracy: 0.795 KL: 511.424
+Step: 14900 Loss: 514.807 Accuracy: 0.794 KL: 514.082
+Step: 15000 Loss: 516.928 Accuracy: 0.795 KL: 516.730
+Step: 15100 Loss: 519.430 Accuracy: 0.796 KL: 519.369
+ ... Held-out nats: -7.142
+ ... Validation Accuracy: 0.566
+Step: 15200 Loss: 522.044 Accuracy: 0.797 KL: 521.996
+Step: 15300 Loss: 524.642 Accuracy: 0.798 KL: 524.613
+Step: 15400 Loss: 527.235 Accuracy: 0.800 KL: 527.220
+Step: 15500 Loss: 529.824 Accuracy: 0.801 KL: 529.816
+ ... Held-out nats: -7.260
+ ... Validation Accuracy: 0.571
+Step: 15600 Loss: 532.413 Accuracy: 0.802 KL: 532.402
+Step: 15700 Loss: 534.983 Accuracy: 0.804 KL: 534.978
+Step: 15800 Loss: 537.548 Accuracy: 0.805 KL: 537.543
+Step: 15900 Loss: 540.101 Accuracy: 0.806 KL: 540.097
+ ... Held-out nats: -9.305
+ ... Validation Accuracy: 0.572
+Step: 16000 Loss: 542.644 Accuracy: 0.807 KL: 542.640
+Step: 16100 Loss: 545.177 Accuracy: 0.808 KL: 545.173
+Step: 16200 Loss: 547.699 Accuracy: 0.810 KL: 547.695
+Step: 16300 Loss: 550.209 Accuracy: 0.811 KL: 550.206
+ ... Held-out nats: -8.914
+ ... Validation Accuracy: 0.574
+Step: 16400 Loss: 552.710 Accuracy: 0.812 KL: 552.707
+Step: 16500 Loss: 555.200 Accuracy: 0.813 KL: 555.197
+Step: 16600 Loss: 557.682 Accuracy: 0.814 KL: 557.679
+Step: 16700 Loss: 560.153 Accuracy: 0.815 KL: 560.151
+ ... Held-out nats: -10.986
+ ... Validation Accuracy: 0.576
+Step: 16800 Loss: 562.614 Accuracy: 0.816 KL: 562.611
+Step: 16900 Loss: 565.064 Accuracy: 0.818 KL: 565.062
+Step: 17000 Loss: 567.503 Accuracy: 0.819 KL: 567.501
+Step: 17100 Loss: 569.933 Accuracy: 0.820 KL: 569.930
+ ... Held-out nats: -9.743
+ ... Validation Accuracy: 0.575
+Step: 17200 Loss: 572.351 Accuracy: 0.821 KL: 572.349
+Step: 17300 Loss: 574.758 Accuracy: 0.822 KL: 574.756
+Step: 17400 Loss: 577.155 Accuracy: 0.823 KL: 577.153
+Step: 17500 Loss: 579.541 Accuracy: 0.824 KL: 579.540
+ ... Held-out nats: -9.318
+ ... Validation Accuracy: 0.576
+Step: 17600 Loss: 581.917 Accuracy: 0.825 KL: 581.915
+Step: 17700 Loss: 584.282 Accuracy: 0.826 KL: 584.280
+Step: 17800 Loss: 586.637 Accuracy: 0.827 KL: 586.635
+Step: 17900 Loss: 588.982 Accuracy: 0.828 KL: 588.980
+ ... Held-out nats: -8.578
+ ... Validation Accuracy: 0.575
+Step: 18000 Loss: 591.318 Accuracy: 0.829 KL: 591.317
+Step: 18100 Loss: 593.645 Accuracy: 0.830 KL: 593.644
+Step: 18200 Loss: 595.961 Accuracy: 0.831 KL: 595.959
+Step: 18300 Loss: 598.265 Accuracy: 0.831 KL: 598.264
+ ... Held-out nats: -9.165
+ ... Validation Accuracy: 0.578
+Step: 18400 Loss: 600.560 Accuracy: 0.832 KL: 600.559
+Step: 18500 Loss: 602.844 Accuracy: 0.833 KL: 602.843
+Step: 18600 Loss: 605.117 Accuracy: 0.834 KL: 605.116
+Step: 18700 Loss: 607.380 Accuracy: 0.835 KL: 607.379
+ ... Held-out nats: -11.023
+ ... Validation Accuracy: 0.577
+Step: 18800 Loss: 609.632 Accuracy: 0.836 KL: 609.631
+Step: 18900 Loss: 611.874 Accuracy: 0.837 KL: 611.872
+Step: 19000 Loss: 614.104 Accuracy: 0.838 KL: 614.103
+Step: 19100 Loss: 616.324 Accuracy: 0.839 KL: 616.323
+ ... Held-out nats: -10.377
+ ... Validation Accuracy: 0.575
+Step: 19200 Loss: 618.534 Accuracy: 0.839 KL: 618.533
+Step: 19300 Loss: 623.576 Accuracy: 0.840 KL: 620.733
+Step: 19400 Loss: 623.921 Accuracy: 0.838 KL: 622.926
+Step: 19500 Loss: 625.426 Accuracy: 0.837 KL: 625.111
+ ... Held-out nats: -5.859
+ ... Validation Accuracy: 0.562
+Step: 19600 Loss: 625.129 Accuracy: 0.838 KL: 625.062
+Step: 19700 Loss: 624.102 Accuracy: 0.838 KL: 624.040
+Step: 19800 Loss: 623.040 Accuracy: 0.839 KL: 623.023
+Step: 19900 Loss: 622.028 Accuracy: 0.840 KL: 622.009
+ ... Held-out nats: -7.150
+ ... Validation Accuracy: 0.571
+Step: 20000 Loss: 621.011 Accuracy: 0.841 KL: 620.999
+Step: 20100 Loss: 620.000 Accuracy: 0.842 KL: 619.992
+Step: 20200 Loss: 618.994 Accuracy: 0.842 KL: 618.987
+Step: 20300 Loss: 617.989 Accuracy: 0.843 KL: 617.985
+ ... Held-out nats: -8.693
+ ... Validation Accuracy: 0.574
+Step: 20400 Loss: 616.991 Accuracy: 0.844 KL: 616.986
+Step: 20500 Loss: 615.991 Accuracy: 0.845 KL: 615.987
+Step: 20600 Loss: 614.994 Accuracy: 0.845 KL: 614.991
+Step: 20700 Loss: 613.999 Accuracy: 0.846 KL: 613.996
+ ... Held-out nats: -8.680
+ ... Validation Accuracy: 0.577
+Step: 20800 Loss: 613.006 Accuracy: 0.847 KL: 613.002
+Step: 20900 Loss: 612.013 Accuracy: 0.848 KL: 612.011
+Step: 21000 Loss: 611.023 Accuracy: 0.848 KL: 611.020
+Step: 21100 Loss: 610.032 Accuracy: 0.849 KL: 610.030
+ ... Held-out nats: -9.447
+ ... Validation Accuracy: 0.576
+Step: 21200 Loss: 609.042 Accuracy: 0.850 KL: 609.040
+Step: 21300 Loss: 608.054 Accuracy: 0.851 KL: 608.052
+Step: 21400 Loss: 607.067 Accuracy: 0.851 KL: 607.066
+Step: 21500 Loss: 606.080 Accuracy: 0.852 KL: 606.079
+ ... Held-out nats: -9.812
+ ... Validation Accuracy: 0.578
+Step: 21600 Loss: 605.094 Accuracy: 0.853 KL: 605.092
+Step: 21700 Loss: 604.107 Accuracy: 0.853 KL: 604.106
+Step: 21800 Loss: 603.121 Accuracy: 0.854 KL: 603.120
+Step: 21900 Loss: 602.135 Accuracy: 0.855 KL: 602.133
+ ... Held-out nats: -10.788
+ ... Validation Accuracy: 0.581
+Step: 22000 Loss: 601.151 Accuracy: 0.855 KL: 601.149
+Step: 22100 Loss: 600.168 Accuracy: 0.856 KL: 600.166
+Step: 22200 Loss: 599.185 Accuracy: 0.857 KL: 599.184
+Step: 22300 Loss: 598.202 Accuracy: 0.857 KL: 598.201
+ ... Held-out nats: -7.715
+ ... Validation Accuracy: 0.578
+Step: 22400 Loss: 597.220 Accuracy: 0.858 KL: 597.219
+Step: 22500 Loss: 596.237 Accuracy: 0.859 KL: 596.236
+Step: 22600 Loss: 595.255 Accuracy: 0.859 KL: 595.254
+Step: 22700 Loss: 594.272 Accuracy: 0.860 KL: 594.271
+ ... Held-out nats: -10.382
+ ... Validation Accuracy: 0.579
+Step: 22800 Loss: 593.289 Accuracy: 0.860 KL: 593.288
+Step: 22900 Loss: 592.307 Accuracy: 0.861 KL: 592.306
+Step: 23000 Loss: 591.324 Accuracy: 0.862 KL: 591.323
+Step: 23100 Loss: 590.342 Accuracy: 0.862 KL: 590.340
+ ... Held-out nats: -2.922
+ ... Validation Accuracy: 0.304
+Step: 23200 Loss: 591.545 Accuracy: 0.862 KL: 589.358
+Step: 23300 Loss: 589.332 Accuracy: 0.861 KL: 588.381
+Step: 23400 Loss: 587.574 Accuracy: 0.861 KL: 587.405
+Step: 23500 Loss: 586.501 Accuracy: 0.861 KL: 586.429
+ ... Held-out nats: -6.602
+ ... Validation Accuracy: 0.567
+Step: 23600 Loss: 585.472 Accuracy: 0.862 KL: 585.454
+Step: 23700 Loss: 584.505 Accuracy: 0.862 KL: 584.479
+Step: 23800 Loss: 583.514 Accuracy: 0.863 KL: 583.503
+Step: 23900 Loss: 582.538 Accuracy: 0.863 KL: 582.526
+ ... Held-out nats: -9.417
+ ... Validation Accuracy: 0.578
+Step: 24000 Loss: 581.558 Accuracy: 0.864 KL: 581.550
+Step: 24100 Loss: 580.577 Accuracy: 0.864 KL: 580.573
+Step: 24200 Loss: 579.599 Accuracy: 0.865 KL: 579.596
+Step: 24300 Loss: 578.622 Accuracy: 0.866 KL: 578.618
+ ... Held-out nats: -8.972
+ ... Validation Accuracy: 0.582
+Step: 24400 Loss: 577.643 Accuracy: 0.866 KL: 577.640
+Step: 24500 Loss: 576.665 Accuracy: 0.867 KL: 576.662
+Step: 24600 Loss: 575.686 Accuracy: 0.867 KL: 575.684
+Step: 24700 Loss: 574.707 Accuracy: 0.868 KL: 574.705
+ ... Held-out nats: -11.224
+ ... Validation Accuracy: 0.585
+Step: 24800 Loss: 573.728 Accuracy: 0.868 KL: 573.726
+Step: 24900 Loss: 572.749 Accuracy: 0.869 KL: 572.747
+Step: 25000 Loss: 571.770 Accuracy: 0.869 KL: 571.768
+Step: 25100 Loss: 570.789 Accuracy: 0.870 KL: 570.788
+ ... Held-out nats: -9.698
+ ... Validation Accuracy: 0.580
+Step: 25200 Loss: 569.810 Accuracy: 0.870 KL: 569.808
+Step: 25300 Loss: 568.830 Accuracy: 0.871 KL: 568.829
+Step: 25400 Loss: 567.850 Accuracy: 0.871 KL: 567.849
+Step: 25500 Loss: 566.870 Accuracy: 0.872 KL: 566.869
+ ... Held-out nats: -9.909
+ ... Validation Accuracy: 0.584
+Step: 25600 Loss: 565.890 Accuracy: 0.872 KL: 565.888
+Step: 25700 Loss: 564.910 Accuracy: 0.873 KL: 564.908
+Step: 25800 Loss: 563.929 Accuracy: 0.873 KL: 563.928
+Step: 25900 Loss: 563.041 Accuracy: 0.874 KL: 562.947
+ ... Held-out nats: -5.471
+ ... Validation Accuracy: 0.552
+Step: 26000 Loss: 562.131 Accuracy: 0.874 KL: 561.974
+Step: 26100 Loss: 561.096 Accuracy: 0.874 KL: 561.002
+Step: 26200 Loss: 560.068 Accuracy: 0.874 KL: 560.029
+Step: 26300 Loss: 559.063 Accuracy: 0.875 KL: 559.057
+ ... Held-out nats: -8.079
+ ... Validation Accuracy: 0.572
+Step: 26400 Loss: 558.089 Accuracy: 0.875 KL: 558.084
+Step: 26500 Loss: 557.118 Accuracy: 0.876 KL: 557.110
+Step: 26600 Loss: 556.146 Accuracy: 0.876 KL: 556.136
+Step: 26700 Loss: 555.165 Accuracy: 0.877 KL: 555.162
+ ... Held-out nats: -9.762
+ ... Validation Accuracy: 0.579
+Step: 26800 Loss: 554.190 Accuracy: 0.877 KL: 554.187
+Step: 26900 Loss: 553.215 Accuracy: 0.878 KL: 553.212
+Step: 27000 Loss: 552.240 Accuracy: 0.878 KL: 552.236
+Step: 27100 Loss: 551.261 Accuracy: 0.879 KL: 551.260
+ ... Held-out nats: -9.670
+ ... Validation Accuracy: 0.580
+Step: 27200 Loss: 550.286 Accuracy: 0.879 KL: 550.283
+Step: 27300 Loss: 549.308 Accuracy: 0.880 KL: 549.306
+Step: 27400 Loss: 548.331 Accuracy: 0.880 KL: 548.329
+Step: 27500 Loss: 547.353 Accuracy: 0.880 KL: 547.352
+ ... Held-out nats: -8.370
+ ... Validation Accuracy: 0.572
+Step: 27600 Loss: 546.386 Accuracy: 0.881 KL: 546.374
+Step: 27700 Loss: 545.591 Accuracy: 0.881 KL: 545.401
+Step: 27800 Loss: 544.502 Accuracy: 0.881 KL: 544.432
+Step: 27900 Loss: 543.497 Accuracy: 0.882 KL: 543.462
+ ... Held-out nats: -7.910
+ ... Validation Accuracy: 0.568
+Step: 28000 Loss: 542.515 Accuracy: 0.882 KL: 542.492
+Step: 28100 Loss: 541.583 Accuracy: 0.882 KL: 541.522
+Step: 28200 Loss: 540.565 Accuracy: 0.883 KL: 540.551
+Step: 28300 Loss: 539.689 Accuracy: 0.883 KL: 539.581
+ ... Held-out nats: -8.640
+ ... Validation Accuracy: 0.564
+Step: 28400 Loss: 538.628 Accuracy: 0.884 KL: 538.612
+Step: 28500 Loss: 537.688 Accuracy: 0.884 KL: 537.644
+Step: 28600 Loss: 536.723 Accuracy: 0.884 KL: 536.676
+Step: 28700 Loss: 535.734 Accuracy: 0.885 KL: 535.708
+ ... Held-out nats: -8.505
+ ... Validation Accuracy: 0.568
+Step: 28800 Loss: 534.757 Accuracy: 0.885 KL: 534.739
+Step: 28900 Loss: 533.788 Accuracy: 0.885 KL: 533.770
+Step: 29000 Loss: 532.845 Accuracy: 0.886 KL: 532.801
+Step: 29100 Loss: 532.021 Accuracy: 0.886 KL: 531.832
+ ... Held-out nats: -9.593
+ ... Validation Accuracy: 0.571
+Step: 29200 Loss: 530.883 Accuracy: 0.886 KL: 530.865
+Step: 29300 Loss: 529.909 Accuracy: 0.887 KL: 529.897
+Step: 29400 Loss: 528.969 Accuracy: 0.887 KL: 528.929
+Step: 29500 Loss: 527.985 Accuracy: 0.888 KL: 527.962
+ ... Held-out nats: -9.499
+ ... Validation Accuracy: 0.553
+Step: 29600 Loss: 527.046 Accuracy: 0.888 KL: 526.995
+Step: 29700 Loss: 526.094 Accuracy: 0.888 KL: 526.029
+Step: 29800 Loss: 525.078 Accuracy: 0.889 KL: 525.064
+Step: 29900 Loss: 524.110 Accuracy: 0.889 KL: 524.098
+ ... Held-out nats: -9.245
+ ... Validation Accuracy: 0.572
+Step: 30000 Loss: 523.161 Accuracy: 0.889 KL: 523.131
+Step: 30100 Loss: 522.208 Accuracy: 0.890 KL: 522.165
+Step: 30200 Loss: 521.323 Accuracy: 0.890 KL: 521.200
+Step: 30300 Loss: 520.247 Accuracy: 0.890 KL: 520.235
+ ... Held-out nats: -6.995
+ ... Validation Accuracy: 0.558
+Step: 30400 Loss: 519.294 Accuracy: 0.891 KL: 519.271
+Step: 30500 Loss: 518.380 Accuracy: 0.891 KL: 518.307
+Step: 30600 Loss: 517.384 Accuracy: 0.891 KL: 517.345
+Step: 30700 Loss: 516.393 Accuracy: 0.891 KL: 516.383
+ ... Held-out nats: -9.591
+ ... Validation Accuracy: 0.576
+Step: 30800 Loss: 515.425 Accuracy: 0.892 KL: 515.420
+Step: 30900 Loss: 514.463 Accuracy: 0.892 KL: 514.456
+Step: 31000 Loss: 513.494 Accuracy: 0.892 KL: 513.491
+Step: 31100 Loss: 512.533 Accuracy: 0.893 KL: 512.525
+ ... Held-out nats: -9.818
+ ... Validation Accuracy: 0.580
+Step: 31200 Loss: 511.560 Accuracy: 0.893 KL: 511.558
+Step: 31300 Loss: 510.630 Accuracy: 0.893 KL: 510.590
+Step: 31400 Loss: 509.833 Accuracy: 0.894 KL: 509.624
+Step: 31500 Loss: 508.687 Accuracy: 0.894 KL: 508.664
+ ... Held-out nats: -7.858
+ ... Validation Accuracy: 0.571
+Step: 31600 Loss: 507.726 Accuracy: 0.894 KL: 507.703
+Step: 31700 Loss: 506.776 Accuracy: 0.895 KL: 506.742
+Step: 31800 Loss: 505.786 Accuracy: 0.895 KL: 505.781
+Step: 31900 Loss: 504.831 Accuracy: 0.895 KL: 504.819
+ ... Held-out nats: -9.833
+ ... Validation Accuracy: 0.566
+Step: 32000 Loss: 503.878 Accuracy: 0.895 KL: 503.857
+Step: 32100 Loss: 503.017 Accuracy: 0.896 KL: 502.895
+Step: 32200 Loss: 501.985 Accuracy: 0.896 KL: 501.935
+Step: 32300 Loss: 501.021 Accuracy: 0.896 KL: 500.975
+ ... Held-out nats: -8.726
+ ... Validation Accuracy: 0.573
+Step: 32400 Loss: 500.049 Accuracy: 0.897 KL: 500.016
+Step: 32500 Loss: 499.106 Accuracy: 0.897 KL: 499.060
+Step: 32600 Loss: 498.114 Accuracy: 0.897 KL: 498.103
+Step: 32700 Loss: 497.166 Accuracy: 0.897 KL: 497.145
+ ... Held-out nats: -10.775
+ ... Validation Accuracy: 0.573
+Step: 32800 Loss: 496.221 Accuracy: 0.898 KL: 496.186
+Step: 32900 Loss: 495.242 Accuracy: 0.898 KL: 495.228
+Step: 33000 Loss: 494.286 Accuracy: 0.898 KL: 494.269
+Step: 33100 Loss: 493.325 Accuracy: 0.899 KL: 493.311
+ ... Held-out nats: -8.802
+ ... Validation Accuracy: 0.556
+Step: 33200 Loss: 492.435 Accuracy: 0.899 KL: 492.354
+Step: 33300 Loss: 491.412 Accuracy: 0.899 KL: 491.399
+Step: 33400 Loss: 490.449 Accuracy: 0.899 KL: 490.444
+Step: 33500 Loss: 489.492 Accuracy: 0.900 KL: 489.487
+ ... Held-out nats: -10.292
+ ... Validation Accuracy: 0.566
+Step: 33600 Loss: 488.538 Accuracy: 0.900 KL: 488.529
+Step: 33700 Loss: 487.585 Accuracy: 0.900 KL: 487.570
+Step: 33800 Loss: 486.611 Accuracy: 0.901 KL: 486.609
+Step: 33900 Loss: 485.656 Accuracy: 0.901 KL: 485.648
+ ... Held-out nats: -8.843
+ ... Validation Accuracy: 0.524
+Step: 34000 Loss: 484.920 Accuracy: 0.901 KL: 484.686
+Step: 34100 Loss: 483.959 Accuracy: 0.901 KL: 483.731
+Step: 34200 Loss: 482.796 Accuracy: 0.901 KL: 482.780
+Step: 34300 Loss: 481.900 Accuracy: 0.902 KL: 481.829
+ ... Held-out nats: -9.218
+ ... Validation Accuracy: 0.579
+Step: 34400 Loss: 480.885 Accuracy: 0.902 KL: 480.877
+Step: 34500 Loss: 479.950 Accuracy: 0.902 KL: 479.925
+Step: 34600 Loss: 479.132 Accuracy: 0.902 KL: 478.971
+Step: 34700 Loss: 478.097 Accuracy: 0.903 KL: 478.021
+ ... Held-out nats: -9.665
+ ... Validation Accuracy: 0.562
+Step: 34800 Loss: 477.153 Accuracy: 0.903 KL: 477.071
+Step: 34900 Loss: 476.126 Accuracy: 0.903 KL: 476.122
+Step: 35000 Loss: 475.192 Accuracy: 0.903 KL: 475.171
+Step: 35100 Loss: 474.230 Accuracy: 0.904 KL: 474.219
+ ... Held-out nats: -10.386
+ ... Validation Accuracy: 0.548
+Step: 35200 Loss: 473.288 Accuracy: 0.904 KL: 473.268
+Step: 35300 Loss: 472.337 Accuracy: 0.904 KL: 472.318
+Step: 35400 Loss: 471.408 Accuracy: 0.904 KL: 471.369
+Step: 35500 Loss: 470.449 Accuracy: 0.905 KL: 470.423
+ ... Held-out nats: -8.817
+ ... Validation Accuracy: 0.570
+Step: 35600 Loss: 469.491 Accuracy: 0.905 KL: 469.478
+Step: 35700 Loss: 468.556 Accuracy: 0.905 KL: 468.532
+Step: 35800 Loss: 467.593 Accuracy: 0.905 KL: 467.586
+Step: 35900 Loss: 466.690 Accuracy: 0.906 KL: 466.639
+ ... Held-out nats: -8.787
+ ... Validation Accuracy: 0.563
+Step: 36000 Loss: 465.726 Accuracy: 0.906 KL: 465.693
+Step: 36100 Loss: 464.766 Accuracy: 0.906 KL: 464.747
+Step: 36200 Loss: 463.819 Accuracy: 0.906 KL: 463.802
+Step: 36300 Loss: 463.031 Accuracy: 0.907 KL: 462.857
+ ... Held-out nats: -9.039
+ ... Validation Accuracy: 0.557
+Step: 36400 Loss: 461.967 Accuracy: 0.907 KL: 461.914
+Step: 36500 Loss: 460.988 Accuracy: 0.907 KL: 460.973
+Step: 36600 Loss: 460.056 Accuracy: 0.907 KL: 460.032
+Step: 36700 Loss: 459.129 Accuracy: 0.907 KL: 459.091
+ ... Held-out nats: -9.136
+ ... Validation Accuracy: 0.573
+Step: 36800 Loss: 458.171 Accuracy: 0.908 KL: 458.151
+Step: 36900 Loss: 457.295 Accuracy: 0.908 KL: 457.213
+Step: 37000 Loss: 456.287 Accuracy: 0.908 KL: 456.278
+Step: 37100 Loss: 455.350 Accuracy: 0.908 KL: 455.342
+ ... Held-out nats: -9.084
+ ... Validation Accuracy: 0.568
+Step: 37200 Loss: 454.410 Accuracy: 0.908 KL: 454.405
+Step: 37300 Loss: 453.525 Accuracy: 0.909 KL: 453.466
+Step: 37400 Loss: 452.536 Accuracy: 0.909 KL: 452.527
+Step: 37500 Loss: 451.665 Accuracy: 0.909 KL: 451.587
+ ... Held-out nats: -8.880
+ ... Validation Accuracy: 0.558
+Step: 37600 Loss: 450.677 Accuracy: 0.909 KL: 450.655
+Step: 37700 Loss: 449.742 Accuracy: 0.910 KL: 449.723
+Step: 37800 Loss: 448.838 Accuracy: 0.910 KL: 448.790
+Step: 37900 Loss: 447.882 Accuracy: 0.910 KL: 447.857
+ ... Held-out nats: -10.369
+ ... Validation Accuracy: 0.562
+Step: 38000 Loss: 446.934 Accuracy: 0.910 KL: 446.922
+Step: 38100 Loss: 446.013 Accuracy: 0.910 KL: 445.987
+Step: 38200 Loss: 445.166 Accuracy: 0.911 KL: 445.054
+Step: 38300 Loss: 444.136 Accuracy: 0.911 KL: 444.123
+ ... Held-out nats: -7.984
+ ... Validation Accuracy: 0.577
+Step: 38400 Loss: 443.204 Accuracy: 0.911 KL: 443.191
+Step: 38500 Loss: 442.280 Accuracy: 0.911 KL: 442.259
+Step: 38600 Loss: 441.424 Accuracy: 0.911 KL: 441.329
+Step: 38700 Loss: 440.443 Accuracy: 0.912 KL: 440.405
+ ... Held-out nats: -8.814
+ ... Validation Accuracy: 0.574
+Step: 38800 Loss: 439.498 Accuracy: 0.912 KL: 439.482
+Step: 38900 Loss: 438.575 Accuracy: 0.912 KL: 438.557
+Step: 39000 Loss: 437.640 Accuracy: 0.912 KL: 437.632
+Step: 39100 Loss: 436.722 Accuracy: 0.912 KL: 436.707
+ ... Held-out nats: -9.958
+ ... Validation Accuracy: 0.570
+Step: 39200 Loss: 435.790 Accuracy: 0.913 KL: 435.782
+Step: 39300 Loss: 434.919 Accuracy: 0.913 KL: 434.859
+Step: 39400 Loss: 433.990 Accuracy: 0.913 KL: 433.939
+Step: 39500 Loss: 433.036 Accuracy: 0.913 KL: 433.021
+ ... Held-out nats: -9.462
+ ... Validation Accuracy: 0.570
+Step: 39600 Loss: 432.122 Accuracy: 0.913 KL: 432.104
+Step: 39700 Loss: 431.216 Accuracy: 0.913 KL: 431.186
+Step: 39800 Loss: 430.288 Accuracy: 0.914 KL: 430.268
+Step: 39900 Loss: 429.396 Accuracy: 0.914 KL: 429.348
+ ... Held-out nats: -10.489
+ ... Validation Accuracy: 0.572
+Step: 40000 Loss: 428.437 Accuracy: 0.914 KL: 428.426
+Step: 40100 Loss: 427.516 Accuracy: 0.914 KL: 427.503
+Step: 40200 Loss: 426.656 Accuracy: 0.914 KL: 426.581
+Step: 40300 Loss: 425.722 Accuracy: 0.915 KL: 425.660
+ ... Held-out nats: -9.482
+ ... Validation Accuracy: 0.560
+Step: 40400 Loss: 424.767 Accuracy: 0.915 KL: 424.741
+Step: 40500 Loss: 423.858 Accuracy: 0.915 KL: 423.826
+Step: 40600 Loss: 422.935 Accuracy: 0.915 KL: 422.914
+Step: 40700 Loss: 422.110 Accuracy: 0.915 KL: 422.005
+ ... Held-out nats: -10.962
+ ... Validation Accuracy: 0.566
+Step: 40800 Loss: 421.136 Accuracy: 0.915 KL: 421.097
+Step: 40900 Loss: 420.301 Accuracy: 0.916 KL: 420.190
+Step: 41000 Loss: 419.299 Accuracy: 0.916 KL: 419.287
+Step: 41100 Loss: 418.413 Accuracy: 0.916 KL: 418.384
+ ... Held-out nats: -11.359
+ ... Validation Accuracy: 0.570
+Step: 41200 Loss: 417.510 Accuracy: 0.916 KL: 417.480
+Step: 41300 Loss: 416.596 Accuracy: 0.916 KL: 416.577
+Step: 41400 Loss: 415.687 Accuracy: 0.916 KL: 415.675
+Step: 41500 Loss: 414.828 Accuracy: 0.917 KL: 414.774
+ ... Held-out nats: -9.518
+ ... Validation Accuracy: 0.565
+Step: 41600 Loss: 413.883 Accuracy: 0.917 KL: 413.875
+Step: 41700 Loss: 413.050 Accuracy: 0.917 KL: 412.976
+Step: 41800 Loss: 412.205 Accuracy: 0.917 KL: 412.079
+Step: 41900 Loss: 411.235 Accuracy: 0.917 KL: 411.182
+ ... Held-out nats: -7.992
+ ... Validation Accuracy: 0.562
+Step: 42000 Loss: 410.339 Accuracy: 0.917 KL: 410.286
+Step: 42100 Loss: 409.426 Accuracy: 0.918 KL: 409.392
+Step: 42200 Loss: 408.522 Accuracy: 0.918 KL: 408.499
+Step: 42300 Loss: 407.623 Accuracy: 0.918 KL: 407.610
+ ... Held-out nats: -8.753
+ ... Validation Accuracy: 0.563
+Step: 42400 Loss: 406.792 Accuracy: 0.918 KL: 406.723
+Step: 42500 Loss: 405.924 Accuracy: 0.918 KL: 405.838
+Step: 42600 Loss: 405.076 Accuracy: 0.918 KL: 404.952
+Step: 42700 Loss: 404.089 Accuracy: 0.919 KL: 404.065
+ ... Held-out nats: -9.514
+ ... Validation Accuracy: 0.570
+Step: 42800 Loss: 403.267 Accuracy: 0.919 KL: 403.180
+Step: 42900 Loss: 402.378 Accuracy: 0.919 KL: 402.298
+Step: 43000 Loss: 401.448 Accuracy: 0.919 KL: 401.415
+Step: 43100 Loss: 400.581 Accuracy: 0.919 KL: 400.534
+ ... Held-out nats: -9.357
+ ... Validation Accuracy: 0.568
+Step: 43200 Loss: 399.731 Accuracy: 0.919 KL: 399.654
+Step: 43300 Loss: 398.844 Accuracy: 0.919 KL: 398.776
+Step: 43400 Loss: 397.967 Accuracy: 0.920 KL: 397.898
+Step: 43500 Loss: 397.043 Accuracy: 0.920 KL: 397.020
+ ... Held-out nats: -9.140
+ ... Validation Accuracy: 0.563
+Step: 43600 Loss: 396.171 Accuracy: 0.920 KL: 396.147
+Step: 43700 Loss: 395.411 Accuracy: 0.920 KL: 395.276
+Step: 43800 Loss: 394.443 Accuracy: 0.920 KL: 394.407
+Step: 43900 Loss: 393.623 Accuracy: 0.920 KL: 393.538
+ ... Held-out nats: -8.610
+ ... Validation Accuracy: 0.550
+Step: 44000 Loss: 392.751 Accuracy: 0.920 KL: 392.672
+Step: 44100 Loss: 391.820 Accuracy: 0.921 KL: 391.808
+Step: 44200 Loss: 390.995 Accuracy: 0.921 KL: 390.945
+Step: 44300 Loss: 390.166 Accuracy: 0.921 KL: 390.080
+ ... Held-out nats: -8.970
+ ... Validation Accuracy: 0.570
+Step: 44400 Loss: 389.376 Accuracy: 0.921 KL: 389.215
+Step: 44500 Loss: 388.477 Accuracy: 0.921 KL: 388.352
+Step: 44600 Loss: 387.534 Accuracy: 0.921 KL: 387.491
+Step: 44700 Loss: 386.660 Accuracy: 0.921 KL: 386.631
+ ... Held-out nats: -8.634
+ ... Validation Accuracy: 0.571
+Step: 44800 Loss: 385.799 Accuracy: 0.922 KL: 385.774
+Step: 44900 Loss: 384.923 Accuracy: 0.922 KL: 384.921
+Step: 45000 Loss: 384.083 Accuracy: 0.922 KL: 384.066
+Step: 45100 Loss: 383.306 Accuracy: 0.922 KL: 383.213
+ ... Held-out nats: -10.189
+ ... Validation Accuracy: 0.569
+Step: 45200 Loss: 382.395 Accuracy: 0.922 KL: 382.364
+Step: 45300 Loss: 381.547 Accuracy: 0.922 KL: 381.518
+Step: 45400 Loss: 380.689 Accuracy: 0.922 KL: 380.670
+Step: 45500 Loss: 379.869 Accuracy: 0.923 KL: 379.824
+ ... Held-out nats: -10.036
+ ... Validation Accuracy: 0.577
+Step: 45600 Loss: 379.019 Accuracy: 0.923 KL: 378.980
+Step: 45700 Loss: 378.204 Accuracy: 0.923 KL: 378.136
+Step: 45800 Loss: 377.320 Accuracy: 0.923 KL: 377.294
+Step: 45900 Loss: 376.509 Accuracy: 0.923 KL: 376.456
+ ... Held-out nats: -8.871
+ ... Validation Accuracy: 0.559
+Step: 46000 Loss: 375.688 Accuracy: 0.923 KL: 375.617
+Step: 46100 Loss: 374.807 Accuracy: 0.923 KL: 374.779
+Step: 46200 Loss: 374.006 Accuracy: 0.923 KL: 373.943
+Step: 46300 Loss: 373.168 Accuracy: 0.924 KL: 373.109
+ ... Held-out nats: -8.230
+ ... Validation Accuracy: 0.555
+Step: 46400 Loss: 372.329 Accuracy: 0.924 KL: 372.278
+Step: 46500 Loss: 371.557 Accuracy: 0.924 KL: 371.449
+Step: 46600 Loss: 370.681 Accuracy: 0.924 KL: 370.624
+Step: 46700 Loss: 370.016 Accuracy: 0.924 KL: 369.802
+ ... Held-out nats: -8.897
+ ... Validation Accuracy: 0.567
+Step: 46800 Loss: 369.029 Accuracy: 0.924 KL: 368.985
+Step: 46900 Loss: 368.235 Accuracy: 0.924 KL: 368.168
+Step: 47000 Loss: 367.360 Accuracy: 0.924 KL: 367.351
+Step: 47100 Loss: 366.665 Accuracy: 0.925 KL: 366.533
+ ... Held-out nats: -10.043
+ ... Validation Accuracy: 0.563
+Step: 47200 Loss: 365.862 Accuracy: 0.925 KL: 365.721
+Step: 47300 Loss: 364.954 Accuracy: 0.925 KL: 364.910
+Step: 47400 Loss: 364.199 Accuracy: 0.925 KL: 364.099
+Step: 47500 Loss: 363.311 Accuracy: 0.925 KL: 363.290
+ ... Held-out nats: -9.076
+ ... Validation Accuracy: 0.564
+Step: 47600 Loss: 362.511 Accuracy: 0.925 KL: 362.483
+Step: 47700 Loss: 361.694 Accuracy: 0.925 KL: 361.677
+Step: 47800 Loss: 360.984 Accuracy: 0.925 KL: 360.871
+Step: 47900 Loss: 360.108 Accuracy: 0.925 KL: 360.067
+ ... Held-out nats: -10.510
+ ... Validation Accuracy: 0.564
+Step: 48000 Loss: 359.302 Accuracy: 0.926 KL: 359.266
+Step: 48100 Loss: 358.533 Accuracy: 0.926 KL: 358.465
+Step: 48200 Loss: 357.724 Accuracy: 0.926 KL: 357.668
+Step: 48300 Loss: 356.958 Accuracy: 0.926 KL: 356.873
+ ... Held-out nats: -8.114
+ ... Validation Accuracy: 0.570
+Step: 48400 Loss: 356.157 Accuracy: 0.926 KL: 356.080
+Step: 48500 Loss: 355.316 Accuracy: 0.926 KL: 355.289
+Step: 48600 Loss: 354.606 Accuracy: 0.926 KL: 354.499
+Step: 48700 Loss: 353.776 Accuracy: 0.926 KL: 353.713
+ ... Held-out nats: -10.557
+ ... Validation Accuracy: 0.570
+Step: 48800 Loss: 353.007 Accuracy: 0.926 KL: 352.930
+Step: 48900 Loss: 352.241 Accuracy: 0.927 KL: 352.149
+Step: 49000 Loss: 351.486 Accuracy: 0.927 KL: 351.369
+Step: 49100 Loss: 350.656 Accuracy: 0.927 KL: 350.592
+ ... Held-out nats: -8.347
+ ... Validation Accuracy: 0.568
+Step: 49200 Loss: 349.871 Accuracy: 0.927 KL: 349.818
+Step: 49300 Loss: 349.076 Accuracy: 0.927 KL: 349.046
+Step: 49400 Loss: 348.447 Accuracy: 0.927 KL: 348.276
+Step: 49500 Loss: 347.578 Accuracy: 0.927 KL: 347.508
+ ... Held-out nats: -9.722
+ ... Validation Accuracy: 0.552
+Step: 49600 Loss: 346.779 Accuracy: 0.927 KL: 346.741
+Step: 49700 Loss: 346.034 Accuracy: 0.927 KL: 345.977
+Step: 49800 Loss: 345.351 Accuracy: 0.927 KL: 345.218
+Step: 49900 Loss: 344.534 Accuracy: 0.928 KL: 344.465
+ ... Held-out nats: -7.732
+ ... Validation Accuracy: 0.572
+Step: 50000 Loss: 343.776 Accuracy: 0.928 KL: 343.712
+Step: 50100 Loss: 343.075 Accuracy: 0.928 KL: 342.961
+Step: 50200 Loss: 342.264 Accuracy: 0.928 KL: 342.214
+Step: 50300 Loss: 341.527 Accuracy: 0.928 KL: 341.467
+ ... Held-out nats: -8.289
+ ... Validation Accuracy: 0.567
+Step: 50400 Loss: 340.751 Accuracy: 0.928 KL: 340.723
+Step: 50500 Loss: 340.080 Accuracy: 0.928 KL: 339.981
+Step: 50600 Loss: 339.302 Accuracy: 0.928 KL: 339.240
+Step: 50700 Loss: 338.522 Accuracy: 0.928 KL: 338.502
+ ... Held-out nats: -8.642
+ ... Validation Accuracy: 0.552
+Step: 50800 Loss: 337.826 Accuracy: 0.928 KL: 337.766
+Step: 50900 Loss: 337.118 Accuracy: 0.928 KL: 337.033
+Step: 51000 Loss: 336.423 Accuracy: 0.929 KL: 336.305
+Step: 51100 Loss: 335.636 Accuracy: 0.929 KL: 335.579
+ ... Held-out nats: -9.741
+ ... Validation Accuracy: 0.567
+Step: 51200 Loss: 334.929 Accuracy: 0.929 KL: 334.852
+Step: 51300 Loss: 334.211 Accuracy: 0.929 KL: 334.126
+Step: 51400 Loss: 333.446 Accuracy: 0.929 KL: 333.405
+Step: 51500 Loss: 332.785 Accuracy: 0.929 KL: 332.687
+ ... Held-out nats: -9.188
+ ... Validation Accuracy: 0.564
+Step: 51600 Loss: 332.101 Accuracy: 0.929 KL: 331.971
+Step: 51700 Loss: 331.298 Accuracy: 0.929 KL: 331.258
+Step: 51800 Loss: 330.619 Accuracy: 0.929 KL: 330.547
+Step: 51900 Loss: 329.892 Accuracy: 0.929 KL: 329.839
+ ... Held-out nats: -7.802
+ ... Validation Accuracy: 0.572
+Step: 52000 Loss: 329.195 Accuracy: 0.929 KL: 329.132
+Step: 52100 Loss: 328.520 Accuracy: 0.929 KL: 328.427
+Step: 52200 Loss: 327.815 Accuracy: 0.929 KL: 327.725
+Step: 52300 Loss: 327.092 Accuracy: 0.930 KL: 327.027
+ ... Held-out nats: -8.602
+ ... Validation Accuracy: 0.565
+Step: 52400 Loss: 326.406 Accuracy: 0.930 KL: 326.330
+Step: 52500 Loss: 325.699 Accuracy: 0.930 KL: 325.636
+Step: 52600 Loss: 325.024 Accuracy: 0.930 KL: 324.943
+Step: 52700 Loss: 324.333 Accuracy: 0.930 KL: 324.254
+ ... Held-out nats: -8.803
+ ... Validation Accuracy: 0.567
+Step: 52800 Loss: 323.662 Accuracy: 0.930 KL: 323.568
+Step: 52900 Loss: 322.947 Accuracy: 0.930 KL: 322.882
+Step: 53000 Loss: 322.336 Accuracy: 0.930 KL: 322.200
+Step: 53100 Loss: 321.560 Accuracy: 0.930 KL: 321.518
+ ... Held-out nats: -8.945
+ ... Validation Accuracy: 0.563
+Step: 53200 Loss: 320.894 Accuracy: 0.930 KL: 320.838
+Step: 53300 Loss: 320.280 Accuracy: 0.930 KL: 320.161
+Step: 53400 Loss: 319.563 Accuracy: 0.930 KL: 319.486
+Step: 53500 Loss: 318.959 Accuracy: 0.930 KL: 318.813
+ ... Held-out nats: -8.181
+ ... Validation Accuracy: 0.566
+Step: 53600 Loss: 318.233 Accuracy: 0.931 KL: 318.142
+Step: 53700 Loss: 317.538 Accuracy: 0.931 KL: 317.476
+Step: 53800 Loss: 316.918 Accuracy: 0.931 KL: 316.812
+Step: 53900 Loss: 316.243 Accuracy: 0.931 KL: 316.151
+ ... Held-out nats: -8.894
+ ... Validation Accuracy: 0.567
+Step: 54000 Loss: 315.637 Accuracy: 0.931 KL: 315.493
+Step: 54100 Loss: 314.978 Accuracy: 0.931 KL: 314.838
+Step: 54200 Loss: 314.243 Accuracy: 0.931 KL: 314.185
+Step: 54300 Loss: 313.615 Accuracy: 0.931 KL: 313.535
+ ... Held-out nats: -7.161
+ ... Validation Accuracy: 0.560
+Step: 54400 Loss: 313.059 Accuracy: 0.931 KL: 312.887
+Step: 54500 Loss: 312.413 Accuracy: 0.931 KL: 312.242
+Step: 54600 Loss: 311.677 Accuracy: 0.931 KL: 311.600
+Step: 54700 Loss: 311.016 Accuracy: 0.931 KL: 310.957
+ ... Held-out nats: -8.114
+ ... Validation Accuracy: 0.558
+Step: 54800 Loss: 310.506 Accuracy: 0.931 KL: 310.320
+Step: 54900 Loss: 309.742 Accuracy: 0.931 KL: 309.686
+Step: 55000 Loss: 309.163 Accuracy: 0.931 KL: 309.054
+Step: 55100 Loss: 308.514 Accuracy: 0.931 KL: 308.422
+ ... Held-out nats: -9.003
+ ... Validation Accuracy: 0.566
+Step: 55200 Loss: 307.903 Accuracy: 0.931 KL: 307.794
+Step: 55300 Loss: 307.277 Accuracy: 0.932 KL: 307.169
+Step: 55400 Loss: 306.639 Accuracy: 0.932 KL: 306.547
+Step: 55500 Loss: 306.081 Accuracy: 0.932 KL: 305.927
+ ... Held-out nats: -8.827
+ ... Validation Accuracy: 0.570
+Step: 55600 Loss: 305.402 Accuracy: 0.932 KL: 305.309
+Step: 55700 Loss: 304.756 Accuracy: 0.932 KL: 304.695
+Step: 55800 Loss: 304.116 Accuracy: 0.932 KL: 304.084
+Step: 55900 Loss: 303.612 Accuracy: 0.932 KL: 303.474
+ ... Held-out nats: -9.452
+ ... Validation Accuracy: 0.570
+Step: 56000 Loss: 302.955 Accuracy: 0.932 KL: 302.866
+Step: 56100 Loss: 302.332 Accuracy: 0.932 KL: 302.261
+Step: 56200 Loss: 301.781 Accuracy: 0.932 KL: 301.656
+Step: 56300 Loss: 301.160 Accuracy: 0.932 KL: 301.053
+ ... Held-out nats: -8.613
+ ... Validation Accuracy: 0.571
+Step: 56400 Loss: 300.592 Accuracy: 0.932 KL: 300.452
+Step: 56500 Loss: 299.934 Accuracy: 0.932 KL: 299.854
+Step: 56600 Loss: 299.310 Accuracy: 0.932 KL: 299.257
+Step: 56700 Loss: 298.775 Accuracy: 0.932 KL: 298.661
+ ... Held-out nats: -9.539
+ ... Validation Accuracy: 0.571
+Step: 56800 Loss: 298.240 Accuracy: 0.932 KL: 298.069
+Step: 56900 Loss: 297.614 Accuracy: 0.932 KL: 297.481
+Step: 57000 Loss: 297.053 Accuracy: 0.932 KL: 296.894
+Step: 57100 Loss: 296.451 Accuracy: 0.932 KL: 296.309
+ ... Held-out nats: -8.436
+ ... Validation Accuracy: 0.570
+Step: 57200 Loss: 295.822 Accuracy: 0.932 KL: 295.726
+Step: 57300 Loss: 295.252 Accuracy: 0.932 KL: 295.147
+Step: 57400 Loss: 294.720 Accuracy: 0.932 KL: 294.569
+Step: 57500 Loss: 294.134 Accuracy: 0.933 KL: 293.994
+ ... Held-out nats: -8.054
+ ... Validation Accuracy: 0.568
+Step: 57600 Loss: 293.672 Accuracy: 0.933 KL: 293.422
+Step: 57700 Loss: 292.982 Accuracy: 0.933 KL: 292.852
+Step: 57800 Loss: 292.373 Accuracy: 0.933 KL: 292.285
+Step: 57900 Loss: 291.834 Accuracy: 0.933 KL: 291.719
+ ... Held-out nats: -7.441
+ ... Validation Accuracy: 0.568
+Step: 58000 Loss: 291.341 Accuracy: 0.933 KL: 291.155
+Step: 58100 Loss: 290.723 Accuracy: 0.933 KL: 290.593
+Step: 58200 Loss: 290.165 Accuracy: 0.933 KL: 290.033
+Step: 58300 Loss: 289.693 Accuracy: 0.933 KL: 289.476
+ ... Held-out nats: -6.870
+ ... Validation Accuracy: 0.560
+Step: 58400 Loss: 289.022 Accuracy: 0.933 KL: 288.921
+Step: 58500 Loss: 288.571 Accuracy: 0.933 KL: 288.368
+Step: 58600 Loss: 287.997 Accuracy: 0.933 KL: 287.817
+Step: 58700 Loss: 287.349 Accuracy: 0.933 KL: 287.270
+ ... Held-out nats: -8.028
+ ... Validation Accuracy: 0.568
+Step: 58800 Loss: 286.868 Accuracy: 0.933 KL: 286.724
+Step: 58900 Loss: 286.326 Accuracy: 0.933 KL: 286.181
+Step: 59000 Loss: 285.834 Accuracy: 0.933 KL: 285.639
+Step: 59100 Loss: 285.264 Accuracy: 0.933 KL: 285.100
+ ... Held-out nats: -8.463
+ ... Validation Accuracy: 0.570
+Step: 59200 Loss: 284.672 Accuracy: 0.933 KL: 284.562
+Step: 59300 Loss: 284.164 Accuracy: 0.933 KL: 284.028
+Step: 59400 Loss: 283.574 Accuracy: 0.933 KL: 283.496
+Step: 59500 Loss: 283.115 Accuracy: 0.933 KL: 282.966
+ ... Held-out nats: -6.946
+ ... Validation Accuracy: 0.565
+Step: 59600 Loss: 282.647 Accuracy: 0.933 KL: 282.437
+Step: 59700 Loss: 282.056 Accuracy: 0.933 KL: 281.910
+Step: 59800 Loss: 281.547 Accuracy: 0.933 KL: 281.383
+Step: 59900 Loss: 281.019 Accuracy: 0.933 KL: 280.858
+ ... Held-out nats: -7.295
+ ... Validation Accuracy: 0.563
+Step: 60000 Loss: 280.519 Accuracy: 0.933 KL: 280.335
+Step: 60100 Loss: 280.013 Accuracy: 0.933 KL: 279.815
+Step: 60200 Loss: 279.371 Accuracy: 0.933 KL: 279.296
+Step: 60300 Loss: 278.876 Accuracy: 0.933 KL: 278.779
+ ... Held-out nats: -8.535
+ ... Validation Accuracy: 0.574
+Step: 60400 Loss: 278.471 Accuracy: 0.933 KL: 278.263
+Step: 60500 Loss: 277.792 Accuracy: 0.933 KL: 277.748
+Step: 60600 Loss: 277.413 Accuracy: 0.933 KL: 277.234
+Step: 60700 Loss: 276.902 Accuracy: 0.933 KL: 276.724
+ ... Held-out nats: -7.728
+ ... Validation Accuracy: 0.577
+Step: 60800 Loss: 276.367 Accuracy: 0.933 KL: 276.214
+Step: 60900 Loss: 275.867 Accuracy: 0.933 KL: 275.707
+Step: 61000 Loss: 275.351 Accuracy: 0.933 KL: 275.203
+Step: 61100 Loss: 275.014 Accuracy: 0.933 KL: 274.700
+ ... Held-out nats: -7.719
+ ... Validation Accuracy: 0.570
+Step: 61200 Loss: 274.366 Accuracy: 0.933 KL: 274.199
+Step: 61300 Loss: 273.831 Accuracy: 0.933 KL: 273.699
+Step: 61400 Loss: 273.308 Accuracy: 0.933 KL: 273.200
+Step: 61500 Loss: 272.933 Accuracy: 0.933 KL: 272.704
+ ... Held-out nats: -8.143
+ ... Validation Accuracy: 0.572
+Step: 61600 Loss: 272.321 Accuracy: 0.933 KL: 272.209
+Step: 61700 Loss: 271.838 Accuracy: 0.933 KL: 271.715
+Step: 61800 Loss: 271.479 Accuracy: 0.933 KL: 271.224
+Step: 61900 Loss: 270.915 Accuracy: 0.933 KL: 270.736
+ ... Held-out nats: -7.571
+ ... Validation Accuracy: 0.571
+Step: 62000 Loss: 270.512 Accuracy: 0.933 KL: 270.249
+Step: 62100 Loss: 269.968 Accuracy: 0.933 KL: 269.763
+Step: 62200 Loss: 269.516 Accuracy: 0.933 KL: 269.279
+Step: 62300 Loss: 268.908 Accuracy: 0.933 KL: 268.796
+ ... Held-out nats: -6.531
+ ... Validation Accuracy: 0.581
+Step: 62400 Loss: 268.480 Accuracy: 0.933 KL: 268.313
+Step: 62500 Loss: 268.059 Accuracy: 0.933 KL: 267.832
+Step: 62600 Loss: 267.532 Accuracy: 0.933 KL: 267.355
+Step: 62700 Loss: 267.057 Accuracy: 0.933 KL: 266.880
+ ... Held-out nats: -6.798
+ ... Validation Accuracy: 0.574
+Step: 62800 Loss: 266.574 Accuracy: 0.933 KL: 266.407
+Step: 62900 Loss: 266.218 Accuracy: 0.933 KL: 265.935
+Step: 63000 Loss: 265.719 Accuracy: 0.933 KL: 265.465
+Step: 63100 Loss: 265.117 Accuracy: 0.933 KL: 264.997
+ ... Held-out nats: -7.757
+ ... Validation Accuracy: 0.577
+Step: 63200 Loss: 264.795 Accuracy: 0.933 KL: 264.530
+Step: 63300 Loss: 264.167 Accuracy: 0.933 KL: 264.063
+Step: 63400 Loss: 263.740 Accuracy: 0.933 KL: 263.599
+Step: 63500 Loss: 263.298 Accuracy: 0.933 KL: 263.135
+ ... Held-out nats: -8.290
+ ... Validation Accuracy: 0.562
+Step: 63600 Loss: 262.914 Accuracy: 0.933 KL: 262.673
+Step: 63700 Loss: 262.463 Accuracy: 0.933 KL: 262.211
+Step: 63800 Loss: 261.926 Accuracy: 0.933 KL: 261.752
+Step: 63900 Loss: 261.577 Accuracy: 0.933 KL: 261.294
+ ... Held-out nats: -7.617
+ ... Validation Accuracy: 0.572
+Step: 64000 Loss: 261.131 Accuracy: 0.933 KL: 260.837
+Step: 64100 Loss: 260.594 Accuracy: 0.933 KL: 260.382
+Step: 64200 Loss: 260.129 Accuracy: 0.933 KL: 259.928
+Step: 64300 Loss: 259.670 Accuracy: 0.933 KL: 259.476
+ ... Held-out nats: -6.966
+ ... Validation Accuracy: 0.575
+Step: 64400 Loss: 259.215 Accuracy: 0.933 KL: 259.026
+Step: 64500 Loss: 258.873 Accuracy: 0.933 KL: 258.575
+Step: 64600 Loss: 258.387 Accuracy: 0.933 KL: 258.126
+Step: 64700 Loss: 257.855 Accuracy: 0.933 KL: 257.678
+ ... Held-out nats: -8.600
+ ... Validation Accuracy: 0.570
+Step: 64800 Loss: 257.373 Accuracy: 0.933 KL: 257.231
+Step: 64900 Loss: 257.185 Accuracy: 0.933 KL: 256.785
+Step: 65000 Loss: 256.567 Accuracy: 0.933 KL: 256.341
+Step: 65100 Loss: 256.165 Accuracy: 0.933 KL: 255.899
+ ... Held-out nats: -7.520
+ ... Validation Accuracy: 0.570
+Step: 65200 Loss: 255.651 Accuracy: 0.933 KL: 255.457
+Step: 65300 Loss: 255.321 Accuracy: 0.933 KL: 255.016
+Step: 65400 Loss: 254.730 Accuracy: 0.933 KL: 254.576
+Step: 65500 Loss: 254.314 Accuracy: 0.933 KL: 254.137
+ ... Held-out nats: -7.675
+ ... Validation Accuracy: 0.568
+Step: 65600 Loss: 253.991 Accuracy: 0.933 KL: 253.699
+Step: 65700 Loss: 253.505 Accuracy: 0.933 KL: 253.263
+Step: 65800 Loss: 253.113 Accuracy: 0.933 KL: 252.827
+Step: 65900 Loss: 252.589 Accuracy: 0.933 KL: 252.392
+ ... Held-out nats: -6.176
+ ... Validation Accuracy: 0.571
+Step: 66000 Loss: 252.185 Accuracy: 0.933 KL: 251.957
+Step: 66100 Loss: 251.735 Accuracy: 0.933 KL: 251.524
+Step: 66200 Loss: 251.236 Accuracy: 0.933 KL: 251.093
+Step: 66300 Loss: 250.876 Accuracy: 0.933 KL: 250.663
+ ... Held-out nats: -7.674
+ ... Validation Accuracy: 0.580
+Step: 66400 Loss: 250.580 Accuracy: 0.933 KL: 250.233
+Step: 66500 Loss: 250.122 Accuracy: 0.933 KL: 249.805
+Step: 66600 Loss: 249.628 Accuracy: 0.933 KL: 249.379
+Step: 66700 Loss: 249.080 Accuracy: 0.933 KL: 248.952
+ ... Held-out nats: -7.956
+ ... Validation Accuracy: 0.583
+Step: 66800 Loss: 248.717 Accuracy: 0.933 KL: 248.527
+Step: 66900 Loss: 248.358 Accuracy: 0.933 KL: 248.102
+Step: 67000 Loss: 248.022 Accuracy: 0.933 KL: 247.679
+Step: 67100 Loss: 247.521 Accuracy: 0.933 KL: 247.256
+ ... Held-out nats: -7.437
+ ... Validation Accuracy: 0.576
+Step: 67200 Loss: 247.027 Accuracy: 0.933 KL: 246.833
+Step: 67300 Loss: 246.646 Accuracy: 0.933 KL: 246.413
+Step: 67400 Loss: 246.188 Accuracy: 0.933 KL: 245.993
+Step: 67500 Loss: 245.755 Accuracy: 0.933 KL: 245.576
+ ... Held-out nats: -6.877
+ ... Validation Accuracy: 0.572
+Step: 67600 Loss: 245.491 Accuracy: 0.933 KL: 245.160
+Step: 67700 Loss: 245.021 Accuracy: 0.933 KL: 244.745
+Step: 67800 Loss: 244.718 Accuracy: 0.933 KL: 244.331
+Step: 67900 Loss: 244.246 Accuracy: 0.933 KL: 243.916
+ ... Held-out nats: -6.592
+ ... Validation Accuracy: 0.570
+Step: 68000 Loss: 243.824 Accuracy: 0.933 KL: 243.502
+Step: 68100 Loss: 243.357 Accuracy: 0.932 KL: 243.089
+Step: 68200 Loss: 242.937 Accuracy: 0.932 KL: 242.677
+Step: 68300 Loss: 242.449 Accuracy: 0.932 KL: 242.267
+ ... Held-out nats: -7.194
+ ... Validation Accuracy: 0.568
+Step: 68400 Loss: 242.127 Accuracy: 0.932 KL: 241.858
+Step: 68500 Loss: 241.747 Accuracy: 0.932 KL: 241.451
+Step: 68600 Loss: 241.200 Accuracy: 0.932 KL: 241.044
+Step: 68700 Loss: 240.803 Accuracy: 0.932 KL: 240.637
+ ... Held-out nats: -7.082
+ ... Validation Accuracy: 0.577
+Step: 68800 Loss: 240.389 Accuracy: 0.932 KL: 240.232
+Step: 68900 Loss: 240.009 Accuracy: 0.932 KL: 239.828
+Step: 69000 Loss: 239.663 Accuracy: 0.932 KL: 239.424
+Step: 69100 Loss: 239.283 Accuracy: 0.932 KL: 239.020
+ ... Held-out nats: -6.812
+ ... Validation Accuracy: 0.571
+Step: 69200 Loss: 238.957 Accuracy: 0.932 KL: 238.618
+Step: 69300 Loss: 238.426 Accuracy: 0.932 KL: 238.216
+Step: 69400 Loss: 238.161 Accuracy: 0.932 KL: 237.814
+Step: 69500 Loss: 237.619 Accuracy: 0.932 KL: 237.414
+ ... Held-out nats: -6.720
+ ... Validation Accuracy: 0.571
+Step: 69600 Loss: 237.267 Accuracy: 0.932 KL: 237.015
+Step: 69700 Loss: 236.883 Accuracy: 0.932 KL: 236.616
+Step: 69800 Loss: 236.450 Accuracy: 0.932 KL: 236.217
+Step: 69900 Loss: 235.993 Accuracy: 0.932 KL: 235.819
+ ... Held-out nats: -7.723
+ ... Validation Accuracy: 0.579
+Step: 70000 Loss: 235.617 Accuracy: 0.932 KL: 235.421
+Step: 70100 Loss: 235.261 Accuracy: 0.932 KL: 235.025
+Step: 70200 Loss: 234.875 Accuracy: 0.932 KL: 234.630
+Step: 70300 Loss: 234.399 Accuracy: 0.932 KL: 234.236
+ ... Held-out nats: -5.471
+ ... Validation Accuracy: 0.581
+Step: 70400 Loss: 234.122 Accuracy: 0.932 KL: 233.843
+Step: 70500 Loss: 233.799 Accuracy: 0.932 KL: 233.451
+Step: 70600 Loss: 233.355 Accuracy: 0.932 KL: 233.059
+Step: 70700 Loss: 233.092 Accuracy: 0.931 KL: 232.668
+ ... Held-out nats: -6.584
+ ... Validation Accuracy: 0.574
+Step: 70800 Loss: 232.532 Accuracy: 0.931 KL: 232.278
+Step: 70900 Loss: 232.056 Accuracy: 0.931 KL: 231.888
+Step: 71000 Loss: 231.725 Accuracy: 0.931 KL: 231.499
+Step: 71100 Loss: 231.517 Accuracy: 0.931 KL: 231.111
+ ... Held-out nats: -7.179
+ ... Validation Accuracy: 0.580
+Step: 71200 Loss: 230.991 Accuracy: 0.931 KL: 230.724
+Step: 71300 Loss: 230.561 Accuracy: 0.931 KL: 230.337
+Step: 71400 Loss: 230.304 Accuracy: 0.931 KL: 229.950
+Step: 71500 Loss: 229.878 Accuracy: 0.931 KL: 229.564
+ ... Held-out nats: -6.704
+ ... Validation Accuracy: 0.570
+Step: 71600 Loss: 229.458 Accuracy: 0.931 KL: 229.180
+Step: 71700 Loss: 229.003 Accuracy: 0.931 KL: 228.796
+Step: 71800 Loss: 228.744 Accuracy: 0.931 KL: 228.412
+Step: 71900 Loss: 228.390 Accuracy: 0.931 KL: 228.029
+ ... Held-out nats: -6.908
+ ... Validation Accuracy: 0.580
+Step: 72000 Loss: 228.019 Accuracy: 0.931 KL: 227.648
+Step: 72100 Loss: 227.527 Accuracy: 0.931 KL: 227.267
+Step: 72200 Loss: 227.048 Accuracy: 0.931 KL: 226.887
+Step: 72300 Loss: 226.670 Accuracy: 0.931 KL: 226.506
+ ... Held-out nats: -7.048
+ ... Validation Accuracy: 0.580
+Step: 72400 Loss: 226.358 Accuracy: 0.931 KL: 226.126
+Step: 72500 Loss: 225.931 Accuracy: 0.931 KL: 225.748
+Step: 72600 Loss: 225.667 Accuracy: 0.931 KL: 225.371
+Step: 72700 Loss: 225.265 Accuracy: 0.931 KL: 224.995
+ ... Held-out nats: -8.140
+ ... Validation Accuracy: 0.586
+Step: 72800 Loss: 224.986 Accuracy: 0.930 KL: 224.619
+Step: 72900 Loss: 224.451 Accuracy: 0.930 KL: 224.242
+Step: 73000 Loss: 224.275 Accuracy: 0.930 KL: 223.868
+Step: 73100 Loss: 223.810 Accuracy: 0.930 KL: 223.494
+ ... Held-out nats: -8.004
+ ... Validation Accuracy: 0.592
+Step: 73200 Loss: 223.477 Accuracy: 0.930 KL: 223.121
+Step: 73300 Loss: 223.105 Accuracy: 0.930 KL: 222.749
+Step: 73400 Loss: 222.747 Accuracy: 0.930 KL: 222.377
+Step: 73500 Loss: 222.297 Accuracy: 0.930 KL: 222.007
+ ... Held-out nats: -7.079
+ ... Validation Accuracy: 0.585
+Step: 73600 Loss: 221.915 Accuracy: 0.930 KL: 221.638
+Step: 73700 Loss: 221.561 Accuracy: 0.930 KL: 221.269
+Step: 73800 Loss: 221.137 Accuracy: 0.930 KL: 220.901
+Step: 73900 Loss: 220.843 Accuracy: 0.930 KL: 220.534
+ ... Held-out nats: -6.388
+ ... Validation Accuracy: 0.585
+Step: 74000 Loss: 220.468 Accuracy: 0.930 KL: 220.167
+Step: 74100 Loss: 220.084 Accuracy: 0.930 KL: 219.801
+Step: 74200 Loss: 219.801 Accuracy: 0.930 KL: 219.436
+Step: 74300 Loss: 219.274 Accuracy: 0.930 KL: 219.071
+ ... Held-out nats: -6.543
+ ... Validation Accuracy: 0.582
+Step: 74400 Loss: 219.079 Accuracy: 0.930 KL: 218.708
+Step: 74500 Loss: 218.579 Accuracy: 0.930 KL: 218.347
+Step: 74600 Loss: 218.205 Accuracy: 0.929 KL: 217.987
+Step: 74700 Loss: 217.930 Accuracy: 0.929 KL: 217.628
+ ... Held-out nats: -6.339
+ ... Validation Accuracy: 0.583
+Step: 74800 Loss: 217.524 Accuracy: 0.929 KL: 217.271
+Step: 74900 Loss: 217.294 Accuracy: 0.929 KL: 216.914
+Step: 75000 Loss: 217.046 Accuracy: 0.929 KL: 216.558
+Step: 75100 Loss: 216.480 Accuracy: 0.929 KL: 216.202
+ ... Held-out nats: -6.147
+ ... Validation Accuracy: 0.581
+Step: 75200 Loss: 216.252 Accuracy: 0.929 KL: 215.847
+Step: 75300 Loss: 215.779 Accuracy: 0.929 KL: 215.493
+Step: 75400 Loss: 215.435 Accuracy: 0.929 KL: 215.140
+Step: 75500 Loss: 215.138 Accuracy: 0.929 KL: 214.787
+ ... Held-out nats: -6.112
+ ... Validation Accuracy: 0.584
+Step: 75600 Loss: 214.725 Accuracy: 0.929 KL: 214.436
+Step: 75700 Loss: 214.326 Accuracy: 0.929 KL: 214.085
+Step: 75800 Loss: 214.070 Accuracy: 0.929 KL: 213.735
+Step: 75900 Loss: 213.748 Accuracy: 0.929 KL: 213.386
+ ... Held-out nats: -5.733
+ ... Validation Accuracy: 0.588
+Step: 76000 Loss: 213.239 Accuracy: 0.929 KL: 213.038
+Step: 76100 Loss: 213.129 Accuracy: 0.929 KL: 212.690
+Step: 76200 Loss: 212.866 Accuracy: 0.929 KL: 212.343
+Step: 76300 Loss: 212.346 Accuracy: 0.928 KL: 211.997
+ ... Held-out nats: -6.706
+ ... Validation Accuracy: 0.585
+Step: 76400 Loss: 212.005 Accuracy: 0.928 KL: 211.652
+Step: 76500 Loss: 211.700 Accuracy: 0.928 KL: 211.309
+Step: 76600 Loss: 211.226 Accuracy: 0.928 KL: 210.966
+Step: 76700 Loss: 211.046 Accuracy: 0.928 KL: 210.623
+ ... Held-out nats: -6.069
+ ... Validation Accuracy: 0.590
+Step: 76800 Loss: 210.581 Accuracy: 0.928 KL: 210.282
+Step: 76900 Loss: 210.353 Accuracy: 0.928 KL: 209.942
+Step: 77000 Loss: 209.836 Accuracy: 0.928 KL: 209.603
+Step: 77100 Loss: 209.704 Accuracy: 0.928 KL: 209.265
+ ... Held-out nats: -5.880
+ ... Validation Accuracy: 0.584
+Step: 77200 Loss: 209.197 Accuracy: 0.928 KL: 208.928
+Step: 77300 Loss: 209.078 Accuracy: 0.928 KL: 208.593
+Step: 77400 Loss: 208.553 Accuracy: 0.928 KL: 208.258
+Step: 77500 Loss: 208.310 Accuracy: 0.928 KL: 207.924
+ ... Held-out nats: -5.918
+ ... Validation Accuracy: 0.583
+Step: 77600 Loss: 207.879 Accuracy: 0.928 KL: 207.591
+Step: 77700 Loss: 207.482 Accuracy: 0.928 KL: 207.260
+Step: 77800 Loss: 207.365 Accuracy: 0.927 KL: 206.929
+Step: 77900 Loss: 206.856 Accuracy: 0.927 KL: 206.600
+ ... Held-out nats: -6.288
+ ... Validation Accuracy: 0.589
+Step: 78000 Loss: 206.662 Accuracy: 0.927 KL: 206.271
+Step: 78100 Loss: 206.322 Accuracy: 0.927 KL: 205.945
+Step: 78200 Loss: 205.997 Accuracy: 0.927 KL: 205.620
+Step: 78300 Loss: 205.569 Accuracy: 0.927 KL: 205.296
+ ... Held-out nats: -5.580
+ ... Validation Accuracy: 0.586
+Step: 78400 Loss: 205.262 Accuracy: 0.927 KL: 204.974
+Step: 78500 Loss: 204.987 Accuracy: 0.927 KL: 204.654
+Step: 78600 Loss: 204.642 Accuracy: 0.927 KL: 204.334
+Step: 78700 Loss: 204.314 Accuracy: 0.927 KL: 204.015
+ ... Held-out nats: -6.946
+ ... Validation Accuracy: 0.585
+Step: 78800 Loss: 204.097 Accuracy: 0.927 KL: 203.697
+Step: 78900 Loss: 203.699 Accuracy: 0.927 KL: 203.379
+Step: 79000 Loss: 203.360 Accuracy: 0.927 KL: 203.063
+Step: 79100 Loss: 203.097 Accuracy: 0.927 KL: 202.748
+ ... Held-out nats: -6.542
+ ... Validation Accuracy: 0.590
+Step: 79200 Loss: 202.830 Accuracy: 0.927 KL: 202.434
+Step: 79300 Loss: 202.428 Accuracy: 0.926 KL: 202.122
+Step: 79400 Loss: 202.166 Accuracy: 0.926 KL: 201.810
+Step: 79500 Loss: 201.972 Accuracy: 0.926 KL: 201.499
+ ... Held-out nats: -6.771
+ ... Validation Accuracy: 0.585
+Step: 79600 Loss: 201.609 Accuracy: 0.926 KL: 201.189
+Step: 79700 Loss: 201.111 Accuracy: 0.926 KL: 200.880
+Step: 79800 Loss: 200.839 Accuracy: 0.926 KL: 200.572
+Step: 79900 Loss: 200.596 Accuracy: 0.926 KL: 200.266
+ ... Held-out nats: -6.599
+ ... Validation Accuracy: 0.592
+Step: 80000 Loss: 200.290 Accuracy: 0.926 KL: 199.960
+Step: 80100 Loss: 200.120 Accuracy: 0.926 KL: 199.656
+Step: 80200 Loss: 199.666 Accuracy: 0.926 KL: 199.354
+Step: 80300 Loss: 199.428 Accuracy: 0.926 KL: 199.052
+ ... Held-out nats: -6.010
+ ... Validation Accuracy: 0.584
+Step: 80400 Loss: 199.026 Accuracy: 0.926 KL: 198.752
+Step: 80500 Loss: 198.783 Accuracy: 0.926 KL: 198.453
+Step: 80600 Loss: 198.545 Accuracy: 0.926 KL: 198.154
+Step: 80700 Loss: 198.403 Accuracy: 0.925 KL: 197.856
+ ... Held-out nats: -8.381
+ ... Validation Accuracy: 0.594
+Step: 80800 Loss: 198.090 Accuracy: 0.925 KL: 197.559
+Step: 80900 Loss: 197.560 Accuracy: 0.925 KL: 197.264
+Step: 81000 Loss: 197.354 Accuracy: 0.925 KL: 196.969
+Step: 81100 Loss: 197.009 Accuracy: 0.925 KL: 196.676
+ ... Held-out nats: -7.887
+ ... Validation Accuracy: 0.583
+Step: 81200 Loss: 196.766 Accuracy: 0.925 KL: 196.385
+Step: 81300 Loss: 196.383 Accuracy: 0.925 KL: 196.094
+Step: 81400 Loss: 196.221 Accuracy: 0.925 KL: 195.805
+Step: 81500 Loss: 195.961 Accuracy: 0.925 KL: 195.517
+ ... Held-out nats: -7.257
+ ... Validation Accuracy: 0.588
+Step: 81600 Loss: 195.686 Accuracy: 0.925 KL: 195.230
+Step: 81700 Loss: 195.461 Accuracy: 0.925 KL: 194.945
+Step: 81800 Loss: 194.941 Accuracy: 0.925 KL: 194.660
+Step: 81900 Loss: 194.732 Accuracy: 0.925 KL: 194.377
+ ... Held-out nats: -5.622
+ ... Validation Accuracy: 0.587
+Step: 82000 Loss: 194.331 Accuracy: 0.925 KL: 194.095
+Step: 82100 Loss: 194.217 Accuracy: 0.924 KL: 193.815
+Step: 82200 Loss: 193.844 Accuracy: 0.924 KL: 193.536
+Step: 82300 Loss: 193.749 Accuracy: 0.924 KL: 193.258
+ ... Held-out nats: -6.736
+ ... Validation Accuracy: 0.592
+Step: 82400 Loss: 193.372 Accuracy: 0.924 KL: 192.982
+Step: 82500 Loss: 193.090 Accuracy: 0.924 KL: 192.707
+Step: 82600 Loss: 192.755 Accuracy: 0.924 KL: 192.432
+Step: 82700 Loss: 192.598 Accuracy: 0.924 KL: 192.158
+ ... Held-out nats: -6.524
+ ... Validation Accuracy: 0.599
+Step: 82800 Loss: 192.123 Accuracy: 0.924 KL: 191.886
+Step: 82900 Loss: 191.924 Accuracy: 0.924 KL: 191.615
+Step: 83000 Loss: 191.626 Accuracy: 0.924 KL: 191.344
+Step: 83100 Loss: 191.380 Accuracy: 0.924 KL: 191.075
+ ... Held-out nats: -6.095
+ ... Validation Accuracy: 0.591
+Step: 83200 Loss: 191.190 Accuracy: 0.924 KL: 190.808
+Step: 83300 Loss: 190.872 Accuracy: 0.924 KL: 190.541
+Step: 83400 Loss: 190.524 Accuracy: 0.923 KL: 190.275
+Step: 83500 Loss: 190.500 Accuracy: 0.923 KL: 190.011
+ ... Held-out nats: -6.086
+ ... Validation Accuracy: 0.602
+Step: 83600 Loss: 190.016 Accuracy: 0.923 KL: 189.747
+Step: 83700 Loss: 189.811 Accuracy: 0.923 KL: 189.485
+Step: 83800 Loss: 189.567 Accuracy: 0.923 KL: 189.223
+Step: 83900 Loss: 189.358 Accuracy: 0.923 KL: 188.963
+ ... Held-out nats: -5.965
+ ... Validation Accuracy: 0.598
+Step: 84000 Loss: 189.144 Accuracy: 0.923 KL: 188.704
+Step: 84100 Loss: 188.823 Accuracy: 0.923 KL: 188.445
+Step: 84200 Loss: 188.535 Accuracy: 0.923 KL: 188.187
+Step: 84300 Loss: 188.295 Accuracy: 0.923 KL: 187.930
+ ... Held-out nats: -7.337
+ ... Validation Accuracy: 0.601
+Step: 84400 Loss: 188.064 Accuracy: 0.923 KL: 187.674
+Step: 84500 Loss: 187.824 Accuracy: 0.923 KL: 187.420
+Step: 84600 Loss: 187.571 Accuracy: 0.923 KL: 187.167
+Step: 84700 Loss: 187.421 Accuracy: 0.922 KL: 186.915
+ ... Held-out nats: -6.068
+ ... Validation Accuracy: 0.597
+Step: 84800 Loss: 186.941 Accuracy: 0.922 KL: 186.664
+Step: 84900 Loss: 186.897 Accuracy: 0.922 KL: 186.414
+Step: 85000 Loss: 186.475 Accuracy: 0.922 KL: 186.166
+Step: 85100 Loss: 186.297 Accuracy: 0.922 KL: 185.919
+ ... Held-out nats: -6.616
+ ... Validation Accuracy: 0.595
+Step: 85200 Loss: 186.124 Accuracy: 0.922 KL: 185.673
+Step: 85300 Loss: 185.804 Accuracy: 0.922 KL: 185.429
+Step: 85400 Loss: 185.580 Accuracy: 0.922 KL: 185.185
+Step: 85500 Loss: 185.300 Accuracy: 0.922 KL: 184.943
+ ... Held-out nats: -5.960
+ ... Validation Accuracy: 0.596
+Step: 85600 Loss: 185.187 Accuracy: 0.922 KL: 184.702
+Step: 85700 Loss: 184.889 Accuracy: 0.922 KL: 184.462
+Step: 85800 Loss: 184.666 Accuracy: 0.922 KL: 184.223
+Step: 85900 Loss: 184.349 Accuracy: 0.922 KL: 183.986
+ ... Held-out nats: -6.515
+ ... Validation Accuracy: 0.598
+Step: 86000 Loss: 184.296 Accuracy: 0.921 KL: 183.749
+Step: 86100 Loss: 184.161 Accuracy: 0.921 KL: 183.514
+Step: 86200 Loss: 183.699 Accuracy: 0.921 KL: 183.280
+Step: 86300 Loss: 183.498 Accuracy: 0.921 KL: 183.046
+ ... Held-out nats: -5.465
+ ... Validation Accuracy: 0.597
+Step: 86400 Loss: 183.211 Accuracy: 0.921 KL: 182.814
+Step: 86500 Loss: 182.859 Accuracy: 0.921 KL: 182.583
+Step: 86600 Loss: 182.873 Accuracy: 0.921 KL: 182.352
+Step: 86700 Loss: 182.475 Accuracy: 0.921 KL: 182.123
+ ... Held-out nats: -5.792
+ ... Validation Accuracy: 0.605
+Step: 86800 Loss: 182.269 Accuracy: 0.921 KL: 181.896
+Step: 86900 Loss: 182.108 Accuracy: 0.921 KL: 181.669
+Step: 87000 Loss: 181.765 Accuracy: 0.921 KL: 181.444
+Step: 87100 Loss: 181.689 Accuracy: 0.921 KL: 181.219
+ ... Held-out nats: -6.687
+ ... Validation Accuracy: 0.605
+Step: 87200 Loss: 181.310 Accuracy: 0.921 KL: 180.995
+Step: 87300 Loss: 181.212 Accuracy: 0.920 KL: 180.771
+Step: 87400 Loss: 180.979 Accuracy: 0.920 KL: 180.549
+Step: 87500 Loss: 180.871 Accuracy: 0.920 KL: 180.328
+ ... Held-out nats: -6.630
+ ... Validation Accuracy: 0.606
+Step: 87600 Loss: 180.547 Accuracy: 0.920 KL: 180.108
+Step: 87700 Loss: 180.362 Accuracy: 0.920 KL: 179.889
+Step: 87800 Loss: 179.993 Accuracy: 0.920 KL: 179.671
+Step: 87900 Loss: 179.856 Accuracy: 0.920 KL: 179.454
+ ... Held-out nats: -6.314
+ ... Validation Accuracy: 0.595
+Step: 88000 Loss: 179.886 Accuracy: 0.920 KL: 179.237
+Step: 88100 Loss: 179.528 Accuracy: 0.920 KL: 179.022
+Step: 88200 Loss: 179.183 Accuracy: 0.920 KL: 178.809
+Step: 88300 Loss: 179.116 Accuracy: 0.920 KL: 178.596
+ ... Held-out nats: -6.246
+ ... Validation Accuracy: 0.605
+Step: 88400 Loss: 178.825 Accuracy: 0.920 KL: 178.384
+Step: 88500 Loss: 178.583 Accuracy: 0.920 KL: 178.173
+Step: 88600 Loss: 178.363 Accuracy: 0.919 KL: 177.963
+Step: 88700 Loss: 178.100 Accuracy: 0.919 KL: 177.754
+ ... Held-out nats: -7.413
+ ... Validation Accuracy: 0.607
+Step: 88800 Loss: 177.896 Accuracy: 0.919 KL: 177.546
+Step: 88900 Loss: 177.935 Accuracy: 0.919 KL: 177.339
+Step: 89000 Loss: 177.600 Accuracy: 0.919 KL: 177.133
+Step: 89100 Loss: 177.384 Accuracy: 0.919 KL: 176.928
+ ... Held-out nats: -8.486
+ ... Validation Accuracy: 0.598
+Step: 89200 Loss: 177.266 Accuracy: 0.919 KL: 176.724
+Step: 89300 Loss: 176.929 Accuracy: 0.919 KL: 176.522
+Step: 89400 Loss: 176.820 Accuracy: 0.919 KL: 176.320
+Step: 89500 Loss: 176.539 Accuracy: 0.919 KL: 176.119
+ ... Held-out nats: -6.053
+ ... Validation Accuracy: 0.605
+Step: 89600 Loss: 176.218 Accuracy: 0.919 KL: 175.920
+Step: 89700 Loss: 176.075 Accuracy: 0.919 KL: 175.721
+Step: 89800 Loss: 175.988 Accuracy: 0.918 KL: 175.523
+Step: 89900 Loss: 175.970 Accuracy: 0.918 KL: 175.326
+ ... Held-out nats: -5.394
+ ... Validation Accuracy: 0.599
+Step: 90000 Loss: 175.665 Accuracy: 0.918 KL: 175.130
+Step: 90100 Loss: 175.405 Accuracy: 0.918 KL: 174.934
+Step: 90200 Loss: 175.104 Accuracy: 0.918 KL: 174.740
+Step: 90300 Loss: 175.021 Accuracy: 0.918 KL: 174.546
+ ... Held-out nats: -6.465
+ ... Validation Accuracy: 0.608
+Step: 90400 Loss: 174.846 Accuracy: 0.918 KL: 174.354
+Step: 90500 Loss: 174.587 Accuracy: 0.918 KL: 174.162
+Step: 90600 Loss: 174.362 Accuracy: 0.918 KL: 173.971
+Step: 90700 Loss: 174.356 Accuracy: 0.918 KL: 173.781
+ ... Held-out nats: -6.241
+ ... Validation Accuracy: 0.605
+Step: 90800 Loss: 174.059 Accuracy: 0.918 KL: 173.592
+Step: 90900 Loss: 173.800 Accuracy: 0.918 KL: 173.403
+Step: 91000 Loss: 173.557 Accuracy: 0.918 KL: 173.216
+Step: 91100 Loss: 173.404 Accuracy: 0.917 KL: 173.029
+ ... Held-out nats: -6.064
+ ... Validation Accuracy: 0.615
+Step: 91200 Loss: 173.183 Accuracy: 0.917 KL: 172.843
+Step: 91300 Loss: 173.070 Accuracy: 0.917 KL: 172.658
+Step: 91400 Loss: 172.981 Accuracy: 0.917 KL: 172.474
+Step: 91500 Loss: 172.853 Accuracy: 0.917 KL: 172.290
+ ... Held-out nats: -5.786
+ ... Validation Accuracy: 0.607
+Step: 91600 Loss: 172.497 Accuracy: 0.917 KL: 172.107
+Step: 91700 Loss: 172.368 Accuracy: 0.917 KL: 171.925
+Step: 91800 Loss: 172.194 Accuracy: 0.917 KL: 171.743
+Step: 91900 Loss: 171.979 Accuracy: 0.917 KL: 171.563
+ ... Held-out nats: -5.802
+ ... Validation Accuracy: 0.609
+Step: 92000 Loss: 171.697 Accuracy: 0.917 KL: 171.383
+Step: 92100 Loss: 171.741 Accuracy: 0.917 KL: 171.203
+Step: 92200 Loss: 171.376 Accuracy: 0.917 KL: 171.025
+Step: 92300 Loss: 171.209 Accuracy: 0.917 KL: 170.848
+ ... Held-out nats: -6.564
+ ... Validation Accuracy: 0.610
+Step: 92400 Loss: 171.111 Accuracy: 0.916 KL: 170.671
+Step: 92500 Loss: 171.016 Accuracy: 0.916 KL: 170.495
+Step: 92600 Loss: 170.746 Accuracy: 0.916 KL: 170.321
+Step: 92700 Loss: 170.632 Accuracy: 0.916 KL: 170.147
+ ... Held-out nats: -6.086
+ ... Validation Accuracy: 0.609
+Step: 92800 Loss: 170.447 Accuracy: 0.916 KL: 169.974
+Step: 92900 Loss: 170.219 Accuracy: 0.916 KL: 169.801
+Step: 93000 Loss: 170.059 Accuracy: 0.916 KL: 169.630
+Step: 93100 Loss: 169.891 Accuracy: 0.916 KL: 169.458
+ ... Held-out nats: -6.246
+ ... Validation Accuracy: 0.611
+Step: 93200 Loss: 169.664 Accuracy: 0.916 KL: 169.288
+Step: 93300 Loss: 169.636 Accuracy: 0.916 KL: 169.118
+Step: 93400 Loss: 169.406 Accuracy: 0.916 KL: 168.949
+Step: 93500 Loss: 169.157 Accuracy: 0.916 KL: 168.782
+ ... Held-out nats: -5.686
+ ... Validation Accuracy: 0.612
+Step: 93600 Loss: 169.031 Accuracy: 0.915 KL: 168.615
+Step: 93700 Loss: 168.990 Accuracy: 0.915 KL: 168.448
+Step: 93800 Loss: 168.854 Accuracy: 0.915 KL: 168.282
+Step: 93900 Loss: 168.653 Accuracy: 0.915 KL: 168.117
+ ... Held-out nats: -5.855
+ ... Validation Accuracy: 0.608
+Step: 94000 Loss: 168.426 Accuracy: 0.915 KL: 167.954
+Step: 94100 Loss: 168.089 Accuracy: 0.915 KL: 167.790
+Step: 94200 Loss: 168.011 Accuracy: 0.915 KL: 167.628
+Step: 94300 Loss: 167.919 Accuracy: 0.915 KL: 167.466
+ ... Held-out nats: -4.756
+ ... Validation Accuracy: 0.612
+Step: 94400 Loss: 167.717 Accuracy: 0.915 KL: 167.305
+Step: 94500 Loss: 167.613 Accuracy: 0.915 KL: 167.145
+Step: 94600 Loss: 167.331 Accuracy: 0.915 KL: 166.985
+Step: 94700 Loss: 167.369 Accuracy: 0.915 KL: 166.825
+ ... Held-out nats: -5.653
+ ... Validation Accuracy: 0.610
+Step: 94800 Loss: 167.084 Accuracy: 0.915 KL: 166.666
+Step: 94900 Loss: 166.947 Accuracy: 0.914 KL: 166.508
+Step: 95000 Loss: 166.804 Accuracy: 0.914 KL: 166.350
+Step: 95100 Loss: 166.633 Accuracy: 0.914 KL: 166.193
+ ... Held-out nats: -6.721
+ ... Validation Accuracy: 0.611
+Step: 95200 Loss: 166.569 Accuracy: 0.914 KL: 166.037
+Step: 95300 Loss: 166.321 Accuracy: 0.914 KL: 165.882
+Step: 95400 Loss: 166.210 Accuracy: 0.914 KL: 165.727
+Step: 95500 Loss: 166.004 Accuracy: 0.914 KL: 165.573
+ ... Held-out nats: -6.176
+ ... Validation Accuracy: 0.609
+Step: 95600 Loss: 165.859 Accuracy: 0.914 KL: 165.420
+Step: 95700 Loss: 165.612 Accuracy: 0.914 KL: 165.267
+Step: 95800 Loss: 165.621 Accuracy: 0.914 KL: 165.115
+Step: 95900 Loss: 165.398 Accuracy: 0.914 KL: 164.964
+ ... Held-out nats: -6.765
+ ... Validation Accuracy: 0.615
+Step: 96000 Loss: 165.345 Accuracy: 0.914 KL: 164.813
+Step: 96100 Loss: 165.073 Accuracy: 0.914 KL: 164.662
+Step: 96200 Loss: 165.041 Accuracy: 0.913 KL: 164.512
+Step: 96300 Loss: 164.964 Accuracy: 0.913 KL: 164.364
+ ... Held-out nats: -5.414
+ ... Validation Accuracy: 0.618
+Step: 96400 Loss: 164.708 Accuracy: 0.913 KL: 164.216
+Step: 96500 Loss: 164.442 Accuracy: 0.913 KL: 164.068
+Step: 96600 Loss: 164.371 Accuracy: 0.913 KL: 163.922
+Step: 96700 Loss: 164.336 Accuracy: 0.913 KL: 163.775
+ ... Held-out nats: -7.497
+ ... Validation Accuracy: 0.613
+Step: 96800 Loss: 164.045 Accuracy: 0.913 KL: 163.630
+Step: 96900 Loss: 164.103 Accuracy: 0.913 KL: 163.485
+Step: 97000 Loss: 163.788 Accuracy: 0.913 KL: 163.340
+Step: 97100 Loss: 163.568 Accuracy: 0.913 KL: 163.196
+ ... Held-out nats: -6.594
+ ... Validation Accuracy: 0.623
+Step: 97200 Loss: 163.667 Accuracy: 0.913 KL: 163.053
+Step: 97300 Loss: 163.232 Accuracy: 0.913 KL: 162.911
+Step: 97400 Loss: 163.351 Accuracy: 0.913 KL: 162.769
+Step: 97500 Loss: 163.127 Accuracy: 0.912 KL: 162.629
+ ... Held-out nats: -6.241
+ ... Validation Accuracy: 0.617
+Step: 97600 Loss: 162.885 Accuracy: 0.912 KL: 162.488
+Step: 97700 Loss: 162.857 Accuracy: 0.912 KL: 162.349
+Step: 97800 Loss: 162.665 Accuracy: 0.912 KL: 162.210
+Step: 97900 Loss: 162.475 Accuracy: 0.912 KL: 162.071
+ ... Held-out nats: -5.594
+ ... Validation Accuracy: 0.618
+Step: 98000 Loss: 162.322 Accuracy: 0.912 KL: 161.933
+Step: 98100 Loss: 162.158 Accuracy: 0.912 KL: 161.796
+Step: 98200 Loss: 162.074 Accuracy: 0.912 KL: 161.659
+Step: 98300 Loss: 161.980 Accuracy: 0.912 KL: 161.523

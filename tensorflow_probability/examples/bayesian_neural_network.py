@@ -44,6 +44,8 @@ import tensorflow_probability as tfp
 
 tf.enable_v2_behavior()
 
+tf.debugging.set_log_device_placement(True)
+
 # TODO(b/78137893): Integration tests currently fail with seaborn imports.
 warnings.simplefilter(action='ignore')
 

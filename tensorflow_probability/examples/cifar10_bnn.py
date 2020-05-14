@@ -46,10 +46,15 @@ from absl import flags
 import matplotlib
 import numpy as np
 import tensorflow.compat.v1 as tf
+# import tensorflow as tf
+tf.disable_eager_execution()
+
+
 import tensorflow_probability as tfp
 
-from tensorflow_probability.examples.models.bayesian_resnet import bayesian_resnet
-from tensorflow_probability.examples.models.bayesian_vgg import bayesian_vgg
+from models.bayesian_resnet import bayesian_resnet
+from models.bayesian_vgg import bayesian_vgg
+
 
 matplotlib.use("Agg")
 warnings.simplefilter(action="ignore")
@@ -79,7 +84,7 @@ flags.DEFINE_integer("eval_freq",
                      default=400,
                      help="Frequency at which to validate the model.")
 flags.DEFINE_integer("num_monte_carlo",
-                     default=50,
+                     default=2,#50,
                      help="Network draws to compute predictive probabilities.")
 flags.DEFINE_string("architecture",
                     default="resnet",
@@ -133,19 +138,21 @@ def build_input_pipeline(x_train, x_test, y_train, y_test,
       (x_train, np.int32(y_train)))
   training_batches = training_dataset.shuffle(
       50000, reshuffle_each_iteration=True).repeat().batch(batch_size)
-  training_iterator = tf.compat.v1.data.make_one_shot_iterator(training_batches)
+  training_iterator = tf.data.make_one_shot_iterator(training_batches)
 
   # Build a iterator over the heldout set with batch_size=heldout_size,
   # i.e., return the entire heldout set as a constant.
   heldout_dataset = tf.data.Dataset.from_tensor_slices(
       (x_test, np.int32(y_test)))
   heldout_batches = heldout_dataset.repeat().batch(valid_size)
-  heldout_iterator = tf.compat.v1.data.make_one_shot_iterator(heldout_batches)
+  heldout_iterator = tf.data.make_one_shot_iterator(heldout_batches)
 
   # Combine these into a feedable iterator that can switch between training
   # and validation inputs.
-  handle = tf.compat.v1.placeholder(tf.string, shape=[])
-  feedable_iterator = tf.compat.v1.data.Iterator.from_string_handle(
+  #handle = tf.compat.v1.placeholder(tf.string, shape=[])
+  handle = tf.placeholder(tf.string, shape=[])
+
+  feedable_iterator = tf.data.Iterator.from_string_handle(
       handle, training_batches.output_types, training_batches.output_shapes)
   images, labels = feedable_iterator.get_next()
 
@@ -165,7 +172,7 @@ def build_fake_data():
 def main(argv):
   del argv  # unused
   if tf.io.gfile.exists(FLAGS.model_dir):
-    tf.compat.v1.logging.warning(
+    tf.logging.warning(
         "Warning: deleting old log directory at {}".format(FLAGS.model_dir))
     tf.io.gfile.rmtree(FLAGS.model_dir)
   tf.io.gfile.makedirs(FLAGS.model_dir)
@@ -209,26 +216,26 @@ def main(argv):
   # pass of the probabilistic layers. They are cheap but noisy
   # predictions.
   predictions = tf.argmax(input=logits, axis=1)
-  with tf.compat.v1.name_scope("train"):
-    train_accuracy, train_accuracy_update_op = tf.compat.v1.metrics.accuracy(
+  with tf.name_scope("train"):
+    train_accuracy, train_accuracy_update_op = tf.metrics.accuracy(
         labels=labels, predictions=predictions)
-    opt = tf.compat.v1.train.AdamOptimizer(FLAGS.learning_rate)
+    opt = tf.train.AdamOptimizer(FLAGS.learning_rate)
     train_op = opt.minimize(loss)
-    update_step_op = tf.compat.v1.assign(t, t + 1)
+    update_step_op = tf.assign(t, t + 1)
 
-  with tf.compat.v1.name_scope("valid"):
-    valid_accuracy, valid_accuracy_update_op = tf.compat.v1.metrics.accuracy(
+  with tf.name_scope("valid"):
+    valid_accuracy, valid_accuracy_update_op = tf.metrics.accuracy(
         labels=labels, predictions=predictions)
 
-  init_op = tf.group(tf.compat.v1.global_variables_initializer(),
-                     tf.compat.v1.local_variables_initializer())
+  init_op = tf.group(tf.global_variables_initializer(),
+                     tf.local_variables_initializer())
 
   stream_vars_valid = [
-      v for v in tf.compat.v1.local_variables() if "valid/" in v.name
+      v for v in tf.local_variables() if "valid/" in v.name
   ]
-  reset_valid_op = tf.compat.v1.variables_initializer(stream_vars_valid)
+  reset_valid_op = tf.variables_initializer(stream_vars_valid)
 
-  with tf.compat.v1.Session() as sess:
+  with tf.Session() as sess:
     sess.run(init_op)
 
     # Run the training loop
@@ -256,15 +263,17 @@ def main(argv):
         #                   ~= 1/n * sum_{i=1}^n p(heldout | model_i)
         # where model_i is a draw from the posterior
         # p(model|train).
-        probs = np.asarray([sess.run((labels_distribution.probs),
+        # probs = np.asarray(sess.run(labels_distribution.prob(np.zeros((1,500))), feed_dict={handle:heldout_handle}))
+        probs = (np.asarray([sess.run((labels_distribution.prob(np.tile(np.arange(10), [500, 1]).T)),
                                      feed_dict={handle: heldout_handle})
-                            for _ in range(FLAGS.num_monte_carlo)])
+                            for _ in range(FLAGS.num_monte_carlo)]))
         mean_probs = np.mean(probs, axis=0)
 
         _, label_vals = sess.run(
             (images, labels), feed_dict={handle: heldout_handle})
-        heldout_lp = np.mean(np.log(mean_probs[np.arange(mean_probs.shape[0]),
-                                               label_vals.flatten()]))
+        # heldout_lp = np.mean(np.log(mean_probs[np.arange(mean_probs.shape[0]),
+                                              #  label_vals.flatten()]))
+        heldout_lp = np.mean(np.log(mean_probs[:, label_vals.flatten()]))
         print(" ... Held-out nats: {:.3f}".format(heldout_lp))
 
         # Calculate validation accuracy
@@ -278,7 +287,7 @@ def main(argv):
             " ... Validation Accuracy: {:.3f}".format(valid_value))
 
         sess.run(reset_valid_op)
-
+  a = 2
 
 if __name__ == "__main__":
-  tf.compat.v1.app.run()
+  tf.app.run()
