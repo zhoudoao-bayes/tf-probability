@@ -9,6 +9,7 @@ import unittest
 
 # from datasets. import mnist
 from datasets.mnist import MNISTSequence
+from datasets.cifar10 import CIFAR10Sequence
 
 
 class TestMNIST(unittest.TestCase):
@@ -27,8 +28,15 @@ class TestMNIST(unittest.TestCase):
         # self.assertEquals(train_seq, heldout_seq, )
 
 
+class TestCIFAR10(unittest.TestCase):
+    pass
+
+
+class TestCIFAR100(unittest.TestCase):
+    pass
+
+
+
+
 if __name__ == '__main__':
     unittest.main()
-
-
-

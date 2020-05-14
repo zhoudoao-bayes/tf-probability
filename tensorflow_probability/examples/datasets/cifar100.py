@@ -22,10 +22,10 @@ import tensorflow_probability as tfp
 tf.enable_v2_behavior()
 
 
-IMAGE_SHAPE = [32, 32, 3]
+IMAGE_SHAPE = [ ]
 NUM_TRAIN_EXAMPLES = 50000
 NUM_HELDOUT_EXAMPLES = 10000
-NUM_CLASSES = 10
+NUM_CLASSES = 100
 
 
 class CIFAR10Sequence(tf.keras.utils.Sequence):

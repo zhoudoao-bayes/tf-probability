@@ -85,4 +85,3 @@ class MNISTSequence(tf.keras.utils.Sequence):
         batch_x = self.images[idx * self.batch_size: (idx+1) * self.batch_size]
         batch_y = self.labels[idx * self.batch_size: (idx+1) * self.batch_size]
         return batch_x, batch_y
-

@@ -65,7 +65,3 @@ def lenet():
     ])
 
     return model
-
-    
-
-
