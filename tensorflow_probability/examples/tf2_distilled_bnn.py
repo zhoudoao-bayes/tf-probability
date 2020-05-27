@@ -28,6 +28,8 @@ sys.path.append('..')
 from models.bayesian_lenet import bayesian_lenet, lenet
 from datasets.mnist import MNISTSequence
 
+import pdb; pdb.set_trace()
+
 tf.enable_v2_behavior()
 
 warnings.simplefilter(action='ignore')
@@ -46,9 +48,9 @@ if DATASETS == 'MNIST':
     NUM_TRAIN_EXAMPLES = 60000
     NUM_HELDOUT_EXAMPLES = 10000
     NUM_CLASSES = 10
-elif DATASETS = "CIFAR10":
+elif DATASETS == "CIFAR10":
     pass 
-elif DATASETS = "CIFAR100":
+elif DATASETS == "CIFAR100":
     pass 
 
 
@@ -63,12 +65,12 @@ flags.DEFINE_integer('batch_size',
                      help='Batch size.')
 flags.DEFINE_string('data_dir',
                     default=os.path.join(os.getenv('TEST_TMPDIR', '/tmp'),
-                                         'bayesian_neural_network/data'),
+                                         'tf2_distilled_bnn/data'),
                     help='Directory where data is stored (if using real data).')
 flags.DEFINE_string(
     'model_dir',
     default=os.path.join(os.getenv('TEST_TMPDIR', '/tmp'),
-                         'bayesian_neural_network/'),
+                         'tf2_distilled_bnn/'),
     help="Directory to put the model's fit.")
 flags.DEFINE_integer('viz_steps',
                      default=400,

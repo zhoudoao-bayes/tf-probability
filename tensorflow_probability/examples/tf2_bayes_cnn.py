@@ -32,9 +32,11 @@ from datasets.mnist import MNISTSequence
 
 tf.enable_v2_behavior()
 
-warnings.simplefilter(action='ignore')
+# warnings.simplefilter(action='ignore')
 
-tfd = tfp.distribution
+import pdb; pdb.set_trace()
+
+tfd = tfp.distributions
 
 try:
   import seaborn as sns  # pylint: disable=g-import-not-at-top
@@ -42,15 +44,16 @@ try:
 except ImportError:
   HAS_SEABORN = False
 
+DATASETS = 'MNIST'
 
 if DATASETS == 'MNIST':
     IMAGE_SHAPE = [28, 28, 1]
     NUM_TRAIN_EXAMPLES = 60000
     NUM_HELDOUT_EXAMPLES = 10000
     NUM_CLASSES = 10
-elif DATASETS = "CIFAR10":
+elif DATASETS == "CIFAR10":
     pass 
-elif DATASETS = "CIFAR100":
+elif DATASETS == "CIFAR100":
     pass 
 
 
@@ -65,18 +68,18 @@ flags.DEFINE_integer('batch_size',
                      help='Batch size.')
 flags.DEFINE_string('data_dir',
                     default=os.path.join(os.getenv('TEST_TMPDIR', '/tmp'),
-                                         'bayesian_neural_network/data'),
+                                         'tf2_bayes_cnn/data'),
                     help='Directory where data is stored (if using real data).')
 flags.DEFINE_string(
     'model_dir',
     default=os.path.join(os.getenv('TEST_TMPDIR', '/tmp'),
-                         'bayesian_neural_network/'),
+                         'tf2_bayes_cnn/'),
     help="Directory to put the model's fit.")
 flags.DEFINE_integer('viz_steps',
-                     default=400,
+                     default=40,
                      help='Frequency at which save visualizations.')
 flags.DEFINE_integer('num_monte_carlo',
-                     default=50,
+                     default=5,
                      help='Network draws to compute predictive probabilities.')
 flags.DEFINE_bool('fake_data',
                   default=False,
@@ -157,10 +160,10 @@ def plot_heldout_prediction(input_vals, probs,
 
 
 def create_model() :
-    kl_divergence_function = (lambda q, p, _: tfd.kl_divergence_function(q, p) /
-        tf.cast(NUM_TRAIN_EXAMPLES, dtype=tf.float32)) 
+    # kl_divergence_function = (lambda q, p, _: tfd.kl_divergence_function(q, p) /
+    #     tf.cast(NUM_TRAIN_EXAMPLES, dtype=tf.float32)) 
     
-    model = bayesian_lenet()
+    model = bayesian_lenet(NUM_CLASSES, NUM_TRAIN_EXAMPLES)
 
     optimizer = tf.keras.optimizers.Adam(lr=FLAGS.learning_rate)
 
@@ -174,7 +177,7 @@ def create_model() :
 def main(argv):
   del argv
   if tf.io.gfile.exists(FLAGS.model_dir):
-    tf.compat.v1.logging.warnings('Warning: deleting old log directory at {}'.format(FLAGS.model_dir))
+    # tf.compat.v1.logging.warnings('Warning: deleting old log directory at {}'.format(FLAGS.model_dir))
     tf.io.gfile.rmtree(FLAGS.model_dir)
   tf.io.gfile.makedirs(FLAGS.model_dir)
 
@@ -184,15 +187,20 @@ def main(argv):
     heldout_seq = MNISTSequence(batch_size=FLAGS.batch_size,
                                 fake_data_size=NUM_HELDOUT_EXAMPLES)
   else:
-    train_set, heldout_set = tf.keras.datasets.mnist.load_data()
+    print(os.path.join(FLAGS.data_dir, 'mnist.npz'))
+    train_set, heldout_set = tf.keras.datasets.mnist.load_data(os.path.join(FLAGS.data_dir,
+        'mnist.npz'))
     train_seq = MNISTSequence(data=train_set, batch_size=FLAGS.batch_size)
     heldout_seq = MNISTSequence(data=heldout_set, batch_size=FLAGS.batch_size)
+  
 
   model = create_model()
 
   model.build(input_shape=[None, 28, 28, 1])
 
   print('... Training convolutional neutral network')
+
+  import pdb; pdb.set_trace()
 
   for epoch in range(FLAGS.num_epochs):
     epoch_accuracy, epoch_loss = [], []

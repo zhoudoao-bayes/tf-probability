@@ -30,6 +30,7 @@ from __future__ import print_function
 
 import os
 import warnings
+import pdb
 
 # Dependency imports
 from absl import app
@@ -44,7 +45,7 @@ import tensorflow_probability as tfp
 
 tf.enable_v2_behavior()
 
-tf.debugging.set_log_device_placement(True)
+# tf.debugging.set_log_device_placement(True)
 
 # TODO(b/78137893): Integration tests currently fail with seaborn imports.
 warnings.simplefilter(action='ignore')
@@ -91,6 +92,7 @@ flags.DEFINE_bool('fake_data',
                   help='If true, uses fake data. Defaults to real data.')
 
 FLAGS = flags.FLAGS
+
 
 
 def plot_weight_posteriors(names, qm_vals, qs_vals, fname):
@@ -290,44 +292,68 @@ class MNISTSequence(tf.keras.utils.Sequence):
     return batch_x, batch_y
 
 
+def save_list_as_npz(lst, filename):
+  np_lst = np.asarray(lst)
+  np.save(filename, np_lst)
+
+
 def main(argv):
   del argv  # unused
+
+  print("DATA DIR:", FLAGS.data_dir)
+  print("MODEL DIR:", FLAGS.model_dir)
+
   if tf.io.gfile.exists(FLAGS.model_dir):
     tf.compat.v1.logging.warning(
         'Warning: deleting old log directory at {}'.format(FLAGS.model_dir))
     tf.io.gfile.rmtree(FLAGS.model_dir)
   tf.io.gfile.makedirs(FLAGS.model_dir)
-
+  print(FLAGS.data_dir)
   if FLAGS.fake_data:
     train_seq = MNISTSequence(batch_size=FLAGS.batch_size,
                               fake_data_size=NUM_TRAIN_EXAMPLES)
     heldout_seq = MNISTSequence(batch_size=FLAGS.batch_size,
                                 fake_data_size=NUM_HELDOUT_EXAMPLES)
+    test_seq = MNISTSequence(fake_data_size=NUM_HELDOUT_EXAMPLES, batch_size=NUM_HELDOUT_EXAMPLES)
   else:
-    train_set, heldout_set = tf.keras.datasets.mnist.load_data()
+    train_set, heldout_set = tf.keras.datasets.mnist.load_data(
+      os.path.join(FLAGS.data_dir, 'mnist.npz'))
+    print(os.path.join(FLAGS.data_dir, 'mnist.npz'))
     train_seq = MNISTSequence(data=train_set, batch_size=FLAGS.batch_size)
     heldout_seq = MNISTSequence(data=heldout_set, batch_size=FLAGS.batch_size)
+    test_seq = MNISTSequence(data=heldout_set, batch_size=NUM_HELDOUT_EXAMPLES)
 
   model = create_model()
   # TODO(b/149259388): understand why Keras does not automatically build the
   # model correctly.
   model.build(input_shape=[None, 28, 28, 1])
-
+  
+  train_accuracy, train_loss = [], []
+  test_accuracy, test_loss = [], []
   print(' ... Training convolutional neural network')
   for epoch in range(FLAGS.num_epochs):
-    epoch_accuracy, epoch_loss = [], []
-    for step, (batch_x, batch_y) in enumerate(train_seq):
-      batch_loss, batch_accuracy = model.train_on_batch(
-          batch_x, batch_y)
-      epoch_accuracy.append(batch_accuracy)
-      epoch_loss.append(batch_loss)
+    for test_x, test_y in test_seq:
+        test_batch_loss, test_batch_accuracy = model.evaluate(x=test_x, y=test_y,
+          batch_size=FLAGS.batch_size)
+    # results = model.evaluate(test_x, test_y, batch_size=FLAGS.batch_size)
+        test_accuracy.append(test_batch_accuracy)
+        test_loss.append(test_batch_loss)
 
-      if step % 100 == 0:
+    for step, (batch_x, batch_y) in enumerate(train_seq):
+      train_batch_loss, train_batch_accuracy = model.train_on_batch(
+          batch_x, batch_y)
+      train_accuracy.append(train_batch_accuracy)
+      train_loss.append(train_batch_loss)
+
+      # for x1, y1 in heldout_seq:
+      #     results = model.evaluate(x1, y1, batch_size=FLAGS.batch_size)
+          
+      if step % 10 == 0:
         print('Epoch: {}, Batch index: {}, '
               'Loss: {:.3f}, Accuracy: {:.3f}'.format(
                   epoch, step,
-                  tf.reduce_mean(epoch_loss),
-                  tf.reduce_mean(epoch_accuracy)))
+                  tf.reduce_mean(train_loss),
+                  tf.reduce_mean(train_accuracy)))
 
       if (step+1) % FLAGS.viz_steps == 0:
         # Compute log prob of heldout set by averaging draws from the model:
@@ -340,6 +366,7 @@ def main(argv):
         mean_probs = tf.reduce_mean(probs, axis=0)
         heldout_log_prob = tf.reduce_mean(tf.math.log(mean_probs))
         print(' ... Held-out nats: {:.3f}'.format(heldout_log_prob))
+
 
         if HAS_SEABORN:
           names = [layer.name for layer in model.layers
@@ -362,6 +389,20 @@ def main(argv):
                                           epoch, step)),
                                   title='mean heldout logprob {:.2f}'
                                   .format(heldout_log_prob))
+  # pdb.set_trace()
+  print(train_accuracy)
+  print(train_loss)
+  print(test_accuracy)
+  print(test_loss)
+  print('End training.')
+
+  prefix = 'lr_' + str(FLAGS.learning_rate)
+  save_list_as_npz(train_accuracy, prefix+'train_accuracy.npy')
+  save_list_as_npz(train_loss, prefix+'train_loss.npy')
+  save_list_as_npz(test_accuracy, prefix+'test_accuracy.npy')
+  save_list_as_npz(test_loss, prefix+'test_loss.npy')
+
+
 
 
 if __name__ == '__main__':

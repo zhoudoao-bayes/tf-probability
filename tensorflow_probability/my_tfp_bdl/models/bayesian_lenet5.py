@@ -1,25 +1,27 @@
-# zhoudoao
-# 2020.5.14
-"""Build a Bayesian Lenet5 model."""
+# zhoudoao@foxmail.com
+# 2020.5.12
+""" Bayesian LeNet-5 and LeNet-5 model.
+"""
+
 
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-import tensorflow as tf
+import tensorflow.compat.v2 as tf
 import tensorflow_probability as tfp
 
+tf.enable_v2_behavior()
 tfd = tfp.distributions 
 
-def bayesian_lenet(num_classes, num_train_examples):
-    kl_divergence_function = (lambda q, p, _: tfd.kl_divergence(q, p) /  # pylint: disable=g-long-lambda
-                            tf.cast(num_train_examples, dtype=tf.float32))
 
+def bayesian_lenet5(num_classes,
+                    kl_divergence_function):
     model = tf.keras.models.Sequential([
         tfp.layers.Convolution2DFlipout(
-          6, kernel_size=5, padding='SAME',
-          kernel_divergence_fn=kl_divergence_function,
-          activation=tf.nn.relu),
+            6, kernel_size=5, padding='SAME',
+            kernel_divergence_fn=kl_divergence_function,
+            activation=tf.nn.relu),
         tf.keras.layers.MaxPooling2D(
             pool_size=[2, 2], strides=[2, 2],
             padding='SAME'),
@@ -46,22 +48,26 @@ def bayesian_lenet(num_classes, num_train_examples):
     return model
 
 
-
-def lenet():
+def lenet5(num_classes, activation=tf.nn.relu):
     model = tf.keras.models.Sequential([
         tf.keras.layers.Conv2D(6, kernel_size=5, padding='SAME',
-            activation=tf.nn.relu),
+            activation=activation),
         tf.keras.layers.MaxPooling2D(pool_size=[2, 2],
             strides=[2, 2], padding='SAME'),
         tf.keras.layers.Conv2D(16, kernel_size=5, padding='SAME',
-            activation=tf.nn.relu),
+            activation=activation),
         tf.keras.layers.MaxPooling2D(pool_size=[2, 2], strides=[2, 2],
             padding='SAME'),
         tf.keras.layers.Conv2D(120, kernel_size=5, padding='SAME',
-           activation=tf.nn.relu),
+           activation=activation),
         tf.keras.layers.Flatten(),
-        tf.keras.layers.Dense(84, activation=tf.nn.relu),
+        tf.keras.layers.Dense(84, activation=activation),
         tf.keras.layers.Dense(num_classes, activation=tf.nn.softmax)
     ])
 
     return model
+
+
+
+
+

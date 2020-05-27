@@ -81,7 +81,7 @@ flags.DEFINE_string(
                          "bayesian_neural_network/"),
     help="Directory to put the model's fit.")
 flags.DEFINE_integer("eval_freq",
-                     default=400,
+                     default=40,
                      help="Frequency at which to validate the model.")
 flags.DEFINE_integer("num_monte_carlo",
                      default=2,#50,
@@ -191,6 +191,9 @@ def main(argv):
     model_fn = bayesian_resnet
   else:
     model_fn = bayesian_vgg
+  
+  import pdb; pdb.set_trace()
+  
 
   model = model_fn(
       IMAGE_SHAPE,
@@ -250,7 +253,7 @@ def main(argv):
                    feed_dict={handle: train_handle})
 
       # Manually print the frequency
-      if step % 100 == 0:
+      if step % 10 == 0:
         loss_value, accuracy_value, kl_value = sess.run(
             [loss, train_accuracy, kl], feed_dict={handle: train_handle})
         print(

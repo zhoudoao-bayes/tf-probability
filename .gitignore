@@ -25,3 +25,8 @@ __pycache__
 *.swp
 .vscode/
 .idea/
+*.npy
+*.png
+*.log
+*.out
+*.bk
