@@ -131,7 +131,9 @@ def main(argv):
         # Training
         for step, (batch_x, batch_y) in enumerate(train_seq):
             train_batch_loss, train_batch_accuracy = bayesian_lenet5_model.train_on_batch(
-                batch_x, batch_y)
+                batch_x, batch_y)   
+            train_accuracy.append(train_batch_accuracy)
+            train_loss.append(train_batch_loss)
 
             if step % 10 == 0:
                 print('Epoch: {}, Batch index: {}, Loss: {:.3f}, Accuracy: {:.3f}'.format(
